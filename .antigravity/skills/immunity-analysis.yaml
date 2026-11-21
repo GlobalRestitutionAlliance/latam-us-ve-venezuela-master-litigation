@@ -1,0 +1,7 @@
+skill:
+  id: immunity-analysis
+  jurisdiction: Venezuela
+  status: ACTIVE
+  description: Analyze immunity and jurisdiction defenses
+  guardrails:
+    - no_fabricated_citations

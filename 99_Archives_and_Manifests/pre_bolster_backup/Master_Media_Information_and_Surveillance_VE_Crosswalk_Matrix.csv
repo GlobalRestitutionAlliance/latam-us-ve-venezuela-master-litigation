@@ -1,0 +1,6 @@
+instrument_id,sector,anchor,claim_vector,evidence_status,status
+VE-MED-01,Media Information and Surveillance,Oil nationalization/expropriation disputes (public record),Pending evidentiary development,PENDING_PRIMARY_SOURCE,SCAFFOLDED
+VE-MED-02,Media Information and Surveillance,Sanctions and economic impacts (public policy record),Pending evidentiary development,PENDING_PRIMARY_SOURCE,SCAFFOLDED
+VE-MED-03,Media Information and Surveillance,Political crisis and external intervention allegations (public record),Pending evidentiary development,PENDING_PRIMARY_SOURCE,SCAFFOLDED
+VE-MED-04,Media Information and Surveillance,Oil nationalization/expropriation disputes (public record),Pending evidentiary development,PENDING_PRIMARY_SOURCE,SCAFFOLDED
+VE-MED-05,Media Information and Surveillance,Sanctions and economic impacts (public policy record),Pending evidentiary development,PENDING_PRIMARY_SOURCE,SCAFFOLDED

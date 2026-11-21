@@ -1,0 +1,13 @@
+{
+  "url": "https://www.ohchr.org/en/countries",
+  "final_url": "\"https://www.ohchr.org/en/countries\"",
+  "status": 200,
+  "title": "\"Countries | OHCHR\"",
+  "bytes": 100112,
+  "sha256": "49662d4dbf47bb6dd2641aa66cb8b14cd70086abca4e04808219bdbf1522b501",
+  "captured_at": "2026-11-21T18:46:08.313068Z",
+  "custodian": "OpenCode/browser-fallback",
+  "country": "US_VE_VENEZUELA",
+  "iso": "VE",
+  "provenance": "browser-rendered outerHTML; WARC-like metadata sidecar; PUBLIC_CAPTURE_UNAUTHENTICATED; not certified original"
+}

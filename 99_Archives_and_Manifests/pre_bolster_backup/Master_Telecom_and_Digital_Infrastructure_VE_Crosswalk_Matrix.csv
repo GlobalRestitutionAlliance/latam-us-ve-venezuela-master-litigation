@@ -1,0 +1,6 @@
+instrument_id,sector,anchor,claim_vector,evidence_status,status
+VE-TEL-01,Telecom and Digital Infrastructure,Oil nationalization/expropriation disputes (public record),Pending evidentiary development,PENDING_PRIMARY_SOURCE,SCAFFOLDED
+VE-TEL-02,Telecom and Digital Infrastructure,Sanctions and economic impacts (public policy record),Pending evidentiary development,PENDING_PRIMARY_SOURCE,SCAFFOLDED
+VE-TEL-03,Telecom and Digital Infrastructure,Political crisis and external intervention allegations (public record),Pending evidentiary development,PENDING_PRIMARY_SOURCE,SCAFFOLDED
+VE-TEL-04,Telecom and Digital Infrastructure,Oil nationalization/expropriation disputes (public record),Pending evidentiary development,PENDING_PRIMARY_SOURCE,SCAFFOLDED
+VE-TEL-05,Telecom and Digital Infrastructure,Sanctions and economic impacts (public policy record),Pending evidentiary development,PENDING_PRIMARY_SOURCE,SCAFFOLDED

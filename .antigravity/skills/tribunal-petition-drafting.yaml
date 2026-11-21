@@ -1,0 +1,9 @@
+skill:
+  id: tribunal-petition-drafting
+  jurisdiction: Venezuela
+  iso: VE
+  status: ACTIVE_SCAFFOLD
+  description: Tribunal Petition Drafting
+  guardrails:
+    - no_fabricated_citations
+    - primary_source_verification_required

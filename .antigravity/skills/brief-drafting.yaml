@@ -1,0 +1,9 @@
+skill:
+  id: brief-drafting
+  jurisdiction: Venezuela
+  iso: VE
+  status: ACTIVE_SCAFFOLD
+  description: Brief Drafting
+  guardrails:
+    - no_fabricated_citations
+    - primary_source_verification_required

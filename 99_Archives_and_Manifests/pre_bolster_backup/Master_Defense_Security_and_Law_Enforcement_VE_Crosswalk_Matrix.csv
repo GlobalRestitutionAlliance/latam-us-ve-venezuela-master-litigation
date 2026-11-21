@@ -1,0 +1,6 @@
+instrument_id,sector,anchor,claim_vector,evidence_status,status
+VE-DEF-01,Defense Security and Law Enforcement,Oil nationalization/expropriation disputes (public record),Pending evidentiary development,PENDING_PRIMARY_SOURCE,SCAFFOLDED
+VE-DEF-02,Defense Security and Law Enforcement,Sanctions and economic impacts (public policy record),Pending evidentiary development,PENDING_PRIMARY_SOURCE,SCAFFOLDED
+VE-DEF-03,Defense Security and Law Enforcement,Political crisis and external intervention allegations (public record),Pending evidentiary development,PENDING_PRIMARY_SOURCE,SCAFFOLDED
+VE-DEF-04,Defense Security and Law Enforcement,Oil nationalization/expropriation disputes (public record),Pending evidentiary development,PENDING_PRIMARY_SOURCE,SCAFFOLDED
+VE-DEF-05,Defense Security and Law Enforcement,Sanctions and economic impacts (public policy record),Pending evidentiary development,PENDING_PRIMARY_SOURCE,SCAFFOLDED

@@ -1,0 +1,7 @@
+skill:
+  id: discovery-protocol
+  jurisdiction: Venezuela
+  status: ACTIVE
+  description: Plan and execute discovery workflows
+  guardrails:
+    - no_fabricated_citations

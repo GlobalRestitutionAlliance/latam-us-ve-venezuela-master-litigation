@@ -1,0 +1,9 @@
+skill:
+  id: settlement-trust-design
+  jurisdiction: Venezuela
+  iso: VE
+  status: ACTIVE_SCAFFOLD
+  description: Settlement Trust Design
+  guardrails:
+    - no_fabricated_citations
+    - primary_source_verification_required

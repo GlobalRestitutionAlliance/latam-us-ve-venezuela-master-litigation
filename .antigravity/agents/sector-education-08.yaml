@@ -1,0 +1,10 @@
+agent:
+  id: sector-education-08
+  jurisdiction: Venezuela
+  iso: VE
+  status: ACTIVE_SCAFFOLD
+  role: Education Sector Specialist #8 - Evidence & Liability Mapping
+  guardrails:
+    - no_fabricated_citations
+    - primary_source_verification_required
+    - legal_review_required_before_filing

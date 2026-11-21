@@ -1,0 +1,9 @@
+skill:
+  id: media-skill-09
+  jurisdiction: Venezuela
+  iso: VE
+  status: ACTIVE_SCAFFOLD
+  description: Media Skill #9 - Scaffold
+  guardrails:
+    - no_fabricated_citations
+    - primary_source_verification_required

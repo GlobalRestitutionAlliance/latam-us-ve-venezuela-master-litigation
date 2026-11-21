@@ -1,0 +1,31 @@
+{
+  "url": "https://www.icj-cij.org/case/171",
+  "final_url": "https://www.icj-cij.org/case/171",
+  "status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 143435,
+  "sha256": "6cc183678162b8c9b02427f565724cdf222256cbc10b5c69a1fc11b5f3823818",
+  "captured_at": "2026-11-21T18:30:08.198525Z",
+  "custodian": "OpenCode/harvest_public_sources.py",
+  "country": "Venezuela",
+  "iso": "VE",
+  "title": "ICJ - Arbitral Award of 3 October 1899 (Guyana v. Venezuela)",
+  "headers": {
+    "Date": "Sat, 21 Nov 2026 18:32:48 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Server": "cloudflare",
+    "Cache-Control": "public, max-age=3600",
+    "content-language": "en",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "expires": "Sun, 19 Nov 1978 05:00:00 GMT",
+    "vary": "Cookie,Accept-Encoding",
+    "content-security-policy": "default-src 'self'; connect-src 'self' https://cloudflareinsights.com/cdn-cgi/rum; font-src 'self' fonts.gstatic.com cdnjs.cloudflare.com; frame-src 'self' cdnapisec.kaltura.com https://www.google.com/recaptcha/ https://recaptcha.google.com/recaptcha/; img-src 'self' data:; object-src 'none'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://static.cloudflareinsights.com/ cdn.jsdelivr.net https://cdnjs.cloudflare.com mdbootstrap.com; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net cdnjs.cloudflare.com fonts.googleapis.com https://cdnjs.cloudflare.com mdbootstrap.com use.fontawesome.com; frame-ancestors 'self'",
+    "last-modified": "Thu, 19 Nov 2026 22:57:03 GMT",
+    "cf-cache-status": "HIT",
+    "Age": "418",
+    "CF-RAY": "a5e1c774ad35ada6-MIA"
+  }
+}

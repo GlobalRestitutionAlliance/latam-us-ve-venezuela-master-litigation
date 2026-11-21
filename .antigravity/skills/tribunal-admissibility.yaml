@@ -1,0 +1,7 @@
+skill:
+  id: tribunal-admissibility
+  jurisdiction: Venezuela
+  status: ACTIVE
+  description: Assess tribunal admissibility and standing
+  guardrails:
+    - no_fabricated_citations

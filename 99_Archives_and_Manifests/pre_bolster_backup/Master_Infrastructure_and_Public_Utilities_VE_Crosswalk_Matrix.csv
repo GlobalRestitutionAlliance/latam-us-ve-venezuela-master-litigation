@@ -1,0 +1,6 @@
+instrument_id,sector,anchor,claim_vector,evidence_status,status
+VE-INF-01,Infrastructure and Public Utilities,Oil nationalization/expropriation disputes (public record),Pending evidentiary development,PENDING_PRIMARY_SOURCE,SCAFFOLDED
+VE-INF-02,Infrastructure and Public Utilities,Sanctions and economic impacts (public policy record),Pending evidentiary development,PENDING_PRIMARY_SOURCE,SCAFFOLDED
+VE-INF-03,Infrastructure and Public Utilities,Political crisis and external intervention allegations (public record),Pending evidentiary development,PENDING_PRIMARY_SOURCE,SCAFFOLDED
+VE-INF-04,Infrastructure and Public Utilities,Oil nationalization/expropriation disputes (public record),Pending evidentiary development,PENDING_PRIMARY_SOURCE,SCAFFOLDED
+VE-INF-05,Infrastructure and Public Utilities,Sanctions and economic impacts (public policy record),Pending evidentiary development,PENDING_PRIMARY_SOURCE,SCAFFOLDED

@@ -1,0 +1,9 @@
+skill:
+  id: judicial-skill-05
+  jurisdiction: Venezuela
+  iso: VE
+  status: ACTIVE_SCAFFOLD
+  description: Judicial Skill #5 - Scaffold
+  guardrails:
+    - no_fabricated_citations
+    - primary_source_verification_required

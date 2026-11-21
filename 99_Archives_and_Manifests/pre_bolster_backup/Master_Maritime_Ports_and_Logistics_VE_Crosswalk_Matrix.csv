@@ -1,0 +1,6 @@
+instrument_id,sector,anchor,claim_vector,evidence_status,status
+VE-MAR-01,Maritime Ports and Logistics,Oil nationalization/expropriation disputes (public record),Pending evidentiary development,PENDING_PRIMARY_SOURCE,SCAFFOLDED
+VE-MAR-02,Maritime Ports and Logistics,Sanctions and economic impacts (public policy record),Pending evidentiary development,PENDING_PRIMARY_SOURCE,SCAFFOLDED
+VE-MAR-03,Maritime Ports and Logistics,Political crisis and external intervention allegations (public record),Pending evidentiary development,PENDING_PRIMARY_SOURCE,SCAFFOLDED
+VE-MAR-04,Maritime Ports and Logistics,Oil nationalization/expropriation disputes (public record),Pending evidentiary development,PENDING_PRIMARY_SOURCE,SCAFFOLDED
+VE-MAR-05,Maritime Ports and Logistics,Sanctions and economic impacts (public policy record),Pending evidentiary development,PENDING_PRIMARY_SOURCE,SCAFFOLDED

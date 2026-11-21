@@ -1,0 +1,9 @@
+skill:
+  id: expert-witness-coordination
+  jurisdiction: Venezuela
+  iso: VE
+  status: ACTIVE_SCAFFOLD
+  description: Expert Witness Coordination
+  guardrails:
+    - no_fabricated_citations
+    - primary_source_verification_required

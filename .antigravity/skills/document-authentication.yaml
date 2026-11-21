@@ -1,0 +1,9 @@
+skill:
+  id: document-authentication
+  jurisdiction: Venezuela
+  iso: VE
+  status: ACTIVE_SCAFFOLD
+  description: Document Authentication
+  guardrails:
+    - no_fabricated_citations
+    - primary_source_verification_required

@@ -1,0 +1,9 @@
+skill:
+  id: mining-skill-06
+  jurisdiction: Venezuela
+  iso: VE
+  status: ACTIVE_SCAFFOLD
+  description: Mining Skill #6 - Scaffold
+  guardrails:
+    - no_fabricated_citations
+    - primary_source_verification_required

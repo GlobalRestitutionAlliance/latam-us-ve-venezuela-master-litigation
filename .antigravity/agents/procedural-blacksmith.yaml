@@ -1,0 +1,10 @@
+agent:
+  id: procedural-blacksmith
+  jurisdiction: Venezuela
+  iso: VE
+  status: ACTIVE_SCAFFOLD
+  role: Pleadings & Procedural Compliance
+  guardrails:
+    - no_fabricated_citations
+    - primary_source_verification_required
+    - legal_review_required_before_filing

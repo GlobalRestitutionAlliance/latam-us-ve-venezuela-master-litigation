@@ -1,0 +1,10 @@
+agent:
+  id: damages-economist
+  jurisdiction: Venezuela
+  iso: VE
+  status: ACTIVE_SCAFFOLD
+  role: Damages, Valuation & Forensic Economics
+  guardrails:
+    - no_fabricated_citations
+    - primary_source_verification_required
+    - legal_review_required_before_filing

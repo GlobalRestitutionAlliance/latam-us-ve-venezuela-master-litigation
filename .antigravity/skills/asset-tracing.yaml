@@ -1,0 +1,7 @@
+skill:
+  id: asset-tracing
+  jurisdiction: Venezuela
+  status: ACTIVE
+  description: Trace assets and enforcement pathways
+  guardrails:
+    - no_fabricated_citations

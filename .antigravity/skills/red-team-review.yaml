@@ -1,0 +1,7 @@
+skill:
+  id: red-team-review
+  jurisdiction: Venezuela
+  status: ACTIVE
+  description: Adversarial review for legal/factual weaknesses
+  guardrails:
+    - no_fabricated_citations

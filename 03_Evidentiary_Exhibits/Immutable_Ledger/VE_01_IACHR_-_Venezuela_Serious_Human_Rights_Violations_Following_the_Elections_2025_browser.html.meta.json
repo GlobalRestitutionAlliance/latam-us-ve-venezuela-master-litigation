@@ -1,0 +1,13 @@
+{
+  "url": "https://www.oas.org/en/iachr/reports/country.asp",
+  "final_url": "\"https://www.oas.org/en/iachr/jsForm/?File=/en/iachr/reports/country.asp\"",
+  "status": 200,
+  "title": "\"IACHR :: Country Reports\"",
+  "bytes": 100161,
+  "sha256": "cf40fd0f747ec40c3c05c0888f71cd2f8f52731c7f38f9fa89ce5aed0c8b6f27",
+  "captured_at": "2026-11-21T18:46:08.313068Z",
+  "custodian": "OpenCode/browser-fallback",
+  "country": "US_VE_VENEZUELA",
+  "iso": "VE",
+  "provenance": "browser-rendered outerHTML; WARC-like metadata sidecar; PUBLIC_CAPTURE_UNAUTHENTICATED; not certified original"
+}

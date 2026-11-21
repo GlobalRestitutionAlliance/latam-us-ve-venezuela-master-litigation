@@ -1,0 +1,7 @@
+skill:
+  id: evidentiary-crosswalk-build
+  jurisdiction: Venezuela
+  status: ACTIVE
+  guardrails:
+    - no_fabricated_citations
+    - primary_source_verification_required

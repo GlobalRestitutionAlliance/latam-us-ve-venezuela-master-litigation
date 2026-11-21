@@ -1,0 +1,9 @@
+skill:
+  id: infrastructure-skill-02
+  jurisdiction: Venezuela
+  iso: VE
+  status: ACTIVE_SCAFFOLD
+  description: Infrastructure Skill #2 - Scaffold
+  guardrails:
+    - no_fabricated_citations
+    - primary_source_verification_required

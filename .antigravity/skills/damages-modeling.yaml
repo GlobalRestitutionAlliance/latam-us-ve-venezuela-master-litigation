@@ -1,0 +1,7 @@
+skill:
+  id: damages-modeling
+  jurisdiction: Venezuela
+  status: ACTIVE
+  description: Build evidence-backed damages models
+  guardrails:
+    - no_fabricated_citations

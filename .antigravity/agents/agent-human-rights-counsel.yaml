@@ -1,0 +1,8 @@
+agent:
+  id: agent-human-rights-counsel
+  jurisdiction: Venezuela
+  status: ACTIVE
+  role: Human Rights & International Law
+  guardrails:
+    - no_fabricated_citations
+    - primary_source_verification_required

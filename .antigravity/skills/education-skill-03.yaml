@@ -1,0 +1,9 @@
+skill:
+  id: education-skill-03
+  jurisdiction: Venezuela
+  iso: VE
+  status: ACTIVE_SCAFFOLD
+  description: Education Skill #3 - Scaffold
+  guardrails:
+    - no_fabricated_citations
+    - primary_source_verification_required

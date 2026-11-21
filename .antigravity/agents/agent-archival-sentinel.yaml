@@ -1,0 +1,8 @@
+agent:
+  id: agent-archival-sentinel
+  jurisdiction: Venezuela
+  status: ACTIVE
+  role: Archival Retrieval, Evidence Authentication & Chain of Custody
+  guardrails:
+    - no_fabricated_citations
+    - primary_source_verification_required

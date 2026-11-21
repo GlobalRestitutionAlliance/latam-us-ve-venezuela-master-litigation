@@ -1,0 +1,9 @@
+skill:
+  id: maritime-skill-08
+  jurisdiction: Venezuela
+  iso: VE
+  status: ACTIVE_SCAFFOLD
+  description: Maritime Skill #8 - Scaffold
+  guardrails:
+    - no_fabricated_citations
+    - primary_source_verification_required

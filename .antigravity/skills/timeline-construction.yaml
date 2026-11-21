@@ -1,0 +1,9 @@
+skill:
+  id: timeline-construction
+  jurisdiction: Venezuela
+  iso: VE
+  status: ACTIVE_SCAFFOLD
+  description: Timeline Construction
+  guardrails:
+    - no_fabricated_citations
+    - primary_source_verification_required

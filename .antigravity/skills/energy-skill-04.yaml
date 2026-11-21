@@ -1,0 +1,9 @@
+skill:
+  id: energy-skill-04
+  jurisdiction: Venezuela
+  iso: VE
+  status: ACTIVE_SCAFFOLD
+  description: Energy Skill #4 - Scaffold
+  guardrails:
+    - no_fabricated_citations
+    - primary_source_verification_required

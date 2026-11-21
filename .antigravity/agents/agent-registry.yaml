@@ -1,12 +1,683 @@
+registry: Agent Registry
+version: 2.0.0
 agents:
-- id: agent-icj-judgment-and-article-94-marshal
-  name: ICJ Judgment & Article 94 Marshal
-  role: International Court of Justice (ICJ) 1986 Judgment on the Merits Enforcement, UN Charter Article 94 Non-Compliance Sanctions & Restrictive Immunity Forfeiture Marshal
-  status: ACTIVE
-  manifest_file: .antigravity/agents/agent-icj-judgment-and-article-94-marshal.yaml
-- id: agent-venezuela-canal-and-intervention-historian
-  name: Venezuela Canal & Intervention Historian
-  role: Historical Interventions Auditor, Bryan-Chamorro Treaty (1914) & CACJ Nullity Precedents, 1912–1933 Marine Occupation Customs Receivership & 1850s Mercenary Filibuster Disgorgement
-  status: ACTIVE
-  manifest_file: .antigravity/agents/agent-venezuela-canal-and-intervention-historian.yaml
-total_agents: 2
+  - id: lead-counsel
+    file: lead-counsel.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Lead Strategic Counsel & Campaign Coordination
+  - id: archival-sentinel
+    file: archival-sentinel.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Archival Retrieval & Evidence Authentication
+  - id: procedural-blacksmith
+    file: procedural-blacksmith.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Pleadings & Procedural Compliance
+  - id: tribunals-envoy
+    file: tribunals-envoy.yaml
+    status: ACTIVE_SCAFFOLD
+    role: International Tribunals & Exequatur
+  - id: red-team-adversary
+    file: red-team-adversary.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Adversarial Defense Simulation
+  - id: damages-economist
+    file: damages-economist.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Damages, Valuation & Forensic Economics
+  - id: discovery-specialist
+    file: discovery-specialist.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Discovery & Custodian Mapping
+  - id: immunity-strategist
+    file: immunity-strategist.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Sovereign Immunity & Jurisdiction Strategy
+  - id: human-rights-counsel
+    file: human-rights-counsel.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Human Rights & International Law
+  - id: enforcement-marshal
+    file: enforcement-marshal.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Asset Tracing & Enforcement
+  - id: sanctions-analyst
+    file: sanctions-analyst.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Sanctions/OFAC Compliance Analysis
+  - id: corporate-forensics
+    file: corporate-forensics.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Corporate Veil & Forensic Accounting
+  - id: treaty-historian
+    file: treaty-historian.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Treaty & Diplomatic History Analysis
+  - id: indigenous-rights
+    file: indigenous-rights.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Indigenous & Afrodescendant Rights
+  - id: environmental-harms
+    file: environmental-harms.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Environmental & Climate Harms
+  - id: labor-migration
+    file: labor-migration.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Labor, Migration & Remittances
+  - id: public-health
+    file: public-health.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Public Health & Services Harms
+  - id: media-integrity
+    file: media-integrity.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Public Record Integrity & Communications
+  - id: appellate-strategist
+    file: appellate-strategist.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Appellate Preservation & Strategy
+  - id: qsf-trustee
+    file: qsf-trustee.yaml
+    status: ACTIVE_SCAFFOLD
+    role: QSF/Trust Administration
+  - id: sector-debt-01
+    file: sector-debt-01.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Debt Sector Specialist #1 - Evidence & Liability Mapping
+  - id: sector-debt-02
+    file: sector-debt-02.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Debt Sector Specialist #2 - Evidence & Liability Mapping
+  - id: sector-debt-03
+    file: sector-debt-03.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Debt Sector Specialist #3 - Evidence & Liability Mapping
+  - id: sector-debt-04
+    file: sector-debt-04.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Debt Sector Specialist #4 - Evidence & Liability Mapping
+  - id: sector-debt-05
+    file: sector-debt-05.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Debt Sector Specialist #5 - Evidence & Liability Mapping
+  - id: sector-debt-06
+    file: sector-debt-06.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Debt Sector Specialist #6 - Evidence & Liability Mapping
+  - id: sector-debt-07
+    file: sector-debt-07.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Debt Sector Specialist #7 - Evidence & Liability Mapping
+  - id: sector-debt-08
+    file: sector-debt-08.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Debt Sector Specialist #8 - Evidence & Liability Mapping
+  - id: sector-energy-01
+    file: sector-energy-01.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Energy Sector Specialist #1 - Evidence & Liability Mapping
+  - id: sector-energy-02
+    file: sector-energy-02.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Energy Sector Specialist #2 - Evidence & Liability Mapping
+  - id: sector-energy-03
+    file: sector-energy-03.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Energy Sector Specialist #3 - Evidence & Liability Mapping
+  - id: sector-energy-04
+    file: sector-energy-04.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Energy Sector Specialist #4 - Evidence & Liability Mapping
+  - id: sector-energy-05
+    file: sector-energy-05.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Energy Sector Specialist #5 - Evidence & Liability Mapping
+  - id: sector-energy-06
+    file: sector-energy-06.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Energy Sector Specialist #6 - Evidence & Liability Mapping
+  - id: sector-energy-07
+    file: sector-energy-07.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Energy Sector Specialist #7 - Evidence & Liability Mapping
+  - id: sector-energy-08
+    file: sector-energy-08.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Energy Sector Specialist #8 - Evidence & Liability Mapping
+  - id: sector-mining-01
+    file: sector-mining-01.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Mining Sector Specialist #1 - Evidence & Liability Mapping
+  - id: sector-mining-02
+    file: sector-mining-02.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Mining Sector Specialist #2 - Evidence & Liability Mapping
+  - id: sector-mining-03
+    file: sector-mining-03.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Mining Sector Specialist #3 - Evidence & Liability Mapping
+  - id: sector-mining-04
+    file: sector-mining-04.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Mining Sector Specialist #4 - Evidence & Liability Mapping
+  - id: sector-mining-05
+    file: sector-mining-05.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Mining Sector Specialist #5 - Evidence & Liability Mapping
+  - id: sector-mining-06
+    file: sector-mining-06.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Mining Sector Specialist #6 - Evidence & Liability Mapping
+  - id: sector-mining-07
+    file: sector-mining-07.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Mining Sector Specialist #7 - Evidence & Liability Mapping
+  - id: sector-mining-08
+    file: sector-mining-08.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Mining Sector Specialist #8 - Evidence & Liability Mapping
+  - id: sector-agriculture-01
+    file: sector-agriculture-01.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Agriculture Sector Specialist #1 - Evidence & Liability Mapping
+  - id: sector-agriculture-02
+    file: sector-agriculture-02.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Agriculture Sector Specialist #2 - Evidence & Liability Mapping
+  - id: sector-agriculture-03
+    file: sector-agriculture-03.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Agriculture Sector Specialist #3 - Evidence & Liability Mapping
+  - id: sector-agriculture-04
+    file: sector-agriculture-04.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Agriculture Sector Specialist #4 - Evidence & Liability Mapping
+  - id: sector-agriculture-05
+    file: sector-agriculture-05.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Agriculture Sector Specialist #5 - Evidence & Liability Mapping
+  - id: sector-agriculture-06
+    file: sector-agriculture-06.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Agriculture Sector Specialist #6 - Evidence & Liability Mapping
+  - id: sector-agriculture-07
+    file: sector-agriculture-07.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Agriculture Sector Specialist #7 - Evidence & Liability Mapping
+  - id: sector-agriculture-08
+    file: sector-agriculture-08.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Agriculture Sector Specialist #8 - Evidence & Liability Mapping
+  - id: sector-infrastructure-01
+    file: sector-infrastructure-01.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Infrastructure Sector Specialist #1 - Evidence & Liability Mapping
+  - id: sector-infrastructure-02
+    file: sector-infrastructure-02.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Infrastructure Sector Specialist #2 - Evidence & Liability Mapping
+  - id: sector-infrastructure-03
+    file: sector-infrastructure-03.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Infrastructure Sector Specialist #3 - Evidence & Liability Mapping
+  - id: sector-infrastructure-04
+    file: sector-infrastructure-04.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Infrastructure Sector Specialist #4 - Evidence & Liability Mapping
+  - id: sector-infrastructure-05
+    file: sector-infrastructure-05.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Infrastructure Sector Specialist #5 - Evidence & Liability Mapping
+  - id: sector-infrastructure-06
+    file: sector-infrastructure-06.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Infrastructure Sector Specialist #6 - Evidence & Liability Mapping
+  - id: sector-infrastructure-07
+    file: sector-infrastructure-07.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Infrastructure Sector Specialist #7 - Evidence & Liability Mapping
+  - id: sector-infrastructure-08
+    file: sector-infrastructure-08.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Infrastructure Sector Specialist #8 - Evidence & Liability Mapping
+  - id: sector-telecom-01
+    file: sector-telecom-01.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Telecom Sector Specialist #1 - Evidence & Liability Mapping
+  - id: sector-telecom-02
+    file: sector-telecom-02.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Telecom Sector Specialist #2 - Evidence & Liability Mapping
+  - id: sector-telecom-03
+    file: sector-telecom-03.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Telecom Sector Specialist #3 - Evidence & Liability Mapping
+  - id: sector-telecom-04
+    file: sector-telecom-04.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Telecom Sector Specialist #4 - Evidence & Liability Mapping
+  - id: sector-telecom-05
+    file: sector-telecom-05.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Telecom Sector Specialist #5 - Evidence & Liability Mapping
+  - id: sector-telecom-06
+    file: sector-telecom-06.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Telecom Sector Specialist #6 - Evidence & Liability Mapping
+  - id: sector-telecom-07
+    file: sector-telecom-07.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Telecom Sector Specialist #7 - Evidence & Liability Mapping
+  - id: sector-telecom-08
+    file: sector-telecom-08.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Telecom Sector Specialist #8 - Evidence & Liability Mapping
+  - id: sector-banking-01
+    file: sector-banking-01.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Banking Sector Specialist #1 - Evidence & Liability Mapping
+  - id: sector-banking-02
+    file: sector-banking-02.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Banking Sector Specialist #2 - Evidence & Liability Mapping
+  - id: sector-banking-03
+    file: sector-banking-03.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Banking Sector Specialist #3 - Evidence & Liability Mapping
+  - id: sector-banking-04
+    file: sector-banking-04.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Banking Sector Specialist #4 - Evidence & Liability Mapping
+  - id: sector-banking-05
+    file: sector-banking-05.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Banking Sector Specialist #5 - Evidence & Liability Mapping
+  - id: sector-banking-06
+    file: sector-banking-06.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Banking Sector Specialist #6 - Evidence & Liability Mapping
+  - id: sector-banking-07
+    file: sector-banking-07.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Banking Sector Specialist #7 - Evidence & Liability Mapping
+  - id: sector-banking-08
+    file: sector-banking-08.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Banking Sector Specialist #8 - Evidence & Liability Mapping
+  - id: sector-defense-01
+    file: sector-defense-01.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Defense Sector Specialist #1 - Evidence & Liability Mapping
+  - id: sector-defense-02
+    file: sector-defense-02.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Defense Sector Specialist #2 - Evidence & Liability Mapping
+  - id: sector-defense-03
+    file: sector-defense-03.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Defense Sector Specialist #3 - Evidence & Liability Mapping
+  - id: sector-defense-04
+    file: sector-defense-04.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Defense Sector Specialist #4 - Evidence & Liability Mapping
+  - id: sector-defense-05
+    file: sector-defense-05.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Defense Sector Specialist #5 - Evidence & Liability Mapping
+  - id: sector-defense-06
+    file: sector-defense-06.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Defense Sector Specialist #6 - Evidence & Liability Mapping
+  - id: sector-defense-07
+    file: sector-defense-07.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Defense Sector Specialist #7 - Evidence & Liability Mapping
+  - id: sector-defense-08
+    file: sector-defense-08.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Defense Sector Specialist #8 - Evidence & Liability Mapping
+  - id: sector-humanrights-01
+    file: sector-humanrights-01.yaml
+    status: ACTIVE_SCAFFOLD
+    role: HumanRights Sector Specialist #1 - Evidence & Liability Mapping
+  - id: sector-humanrights-02
+    file: sector-humanrights-02.yaml
+    status: ACTIVE_SCAFFOLD
+    role: HumanRights Sector Specialist #2 - Evidence & Liability Mapping
+  - id: sector-humanrights-03
+    file: sector-humanrights-03.yaml
+    status: ACTIVE_SCAFFOLD
+    role: HumanRights Sector Specialist #3 - Evidence & Liability Mapping
+  - id: sector-humanrights-04
+    file: sector-humanrights-04.yaml
+    status: ACTIVE_SCAFFOLD
+    role: HumanRights Sector Specialist #4 - Evidence & Liability Mapping
+  - id: sector-humanrights-05
+    file: sector-humanrights-05.yaml
+    status: ACTIVE_SCAFFOLD
+    role: HumanRights Sector Specialist #5 - Evidence & Liability Mapping
+  - id: sector-humanrights-06
+    file: sector-humanrights-06.yaml
+    status: ACTIVE_SCAFFOLD
+    role: HumanRights Sector Specialist #6 - Evidence & Liability Mapping
+  - id: sector-humanrights-07
+    file: sector-humanrights-07.yaml
+    status: ACTIVE_SCAFFOLD
+    role: HumanRights Sector Specialist #7 - Evidence & Liability Mapping
+  - id: sector-humanrights-08
+    file: sector-humanrights-08.yaml
+    status: ACTIVE_SCAFFOLD
+    role: HumanRights Sector Specialist #8 - Evidence & Liability Mapping
+  - id: sector-environment-01
+    file: sector-environment-01.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Environment Sector Specialist #1 - Evidence & Liability Mapping
+  - id: sector-environment-02
+    file: sector-environment-02.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Environment Sector Specialist #2 - Evidence & Liability Mapping
+  - id: sector-environment-03
+    file: sector-environment-03.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Environment Sector Specialist #3 - Evidence & Liability Mapping
+  - id: sector-environment-04
+    file: sector-environment-04.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Environment Sector Specialist #4 - Evidence & Liability Mapping
+  - id: sector-environment-05
+    file: sector-environment-05.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Environment Sector Specialist #5 - Evidence & Liability Mapping
+  - id: sector-environment-06
+    file: sector-environment-06.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Environment Sector Specialist #6 - Evidence & Liability Mapping
+  - id: sector-environment-07
+    file: sector-environment-07.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Environment Sector Specialist #7 - Evidence & Liability Mapping
+  - id: sector-environment-08
+    file: sector-environment-08.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Environment Sector Specialist #8 - Evidence & Liability Mapping
+  - id: sector-labor-01
+    file: sector-labor-01.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Labor Sector Specialist #1 - Evidence & Liability Mapping
+  - id: sector-labor-02
+    file: sector-labor-02.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Labor Sector Specialist #2 - Evidence & Liability Mapping
+  - id: sector-labor-03
+    file: sector-labor-03.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Labor Sector Specialist #3 - Evidence & Liability Mapping
+  - id: sector-labor-04
+    file: sector-labor-04.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Labor Sector Specialist #4 - Evidence & Liability Mapping
+  - id: sector-labor-05
+    file: sector-labor-05.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Labor Sector Specialist #5 - Evidence & Liability Mapping
+  - id: sector-labor-06
+    file: sector-labor-06.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Labor Sector Specialist #6 - Evidence & Liability Mapping
+  - id: sector-labor-07
+    file: sector-labor-07.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Labor Sector Specialist #7 - Evidence & Liability Mapping
+  - id: sector-labor-08
+    file: sector-labor-08.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Labor Sector Specialist #8 - Evidence & Liability Mapping
+  - id: sector-health-01
+    file: sector-health-01.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Health Sector Specialist #1 - Evidence & Liability Mapping
+  - id: sector-health-02
+    file: sector-health-02.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Health Sector Specialist #2 - Evidence & Liability Mapping
+  - id: sector-health-03
+    file: sector-health-03.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Health Sector Specialist #3 - Evidence & Liability Mapping
+  - id: sector-health-04
+    file: sector-health-04.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Health Sector Specialist #4 - Evidence & Liability Mapping
+  - id: sector-health-05
+    file: sector-health-05.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Health Sector Specialist #5 - Evidence & Liability Mapping
+  - id: sector-health-06
+    file: sector-health-06.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Health Sector Specialist #6 - Evidence & Liability Mapping
+  - id: sector-health-07
+    file: sector-health-07.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Health Sector Specialist #7 - Evidence & Liability Mapping
+  - id: sector-health-08
+    file: sector-health-08.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Health Sector Specialist #8 - Evidence & Liability Mapping
+  - id: sector-education-01
+    file: sector-education-01.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Education Sector Specialist #1 - Evidence & Liability Mapping
+  - id: sector-education-02
+    file: sector-education-02.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Education Sector Specialist #2 - Evidence & Liability Mapping
+  - id: sector-education-03
+    file: sector-education-03.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Education Sector Specialist #3 - Evidence & Liability Mapping
+  - id: sector-education-04
+    file: sector-education-04.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Education Sector Specialist #4 - Evidence & Liability Mapping
+  - id: sector-education-05
+    file: sector-education-05.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Education Sector Specialist #5 - Evidence & Liability Mapping
+  - id: sector-education-06
+    file: sector-education-06.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Education Sector Specialist #6 - Evidence & Liability Mapping
+  - id: sector-education-07
+    file: sector-education-07.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Education Sector Specialist #7 - Evidence & Liability Mapping
+  - id: sector-education-08
+    file: sector-education-08.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Education Sector Specialist #8 - Evidence & Liability Mapping
+  - id: sector-trade-01
+    file: sector-trade-01.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Trade Sector Specialist #1 - Evidence & Liability Mapping
+  - id: sector-trade-02
+    file: sector-trade-02.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Trade Sector Specialist #2 - Evidence & Liability Mapping
+  - id: sector-trade-03
+    file: sector-trade-03.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Trade Sector Specialist #3 - Evidence & Liability Mapping
+  - id: sector-trade-04
+    file: sector-trade-04.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Trade Sector Specialist #4 - Evidence & Liability Mapping
+  - id: sector-trade-05
+    file: sector-trade-05.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Trade Sector Specialist #5 - Evidence & Liability Mapping
+  - id: sector-trade-06
+    file: sector-trade-06.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Trade Sector Specialist #6 - Evidence & Liability Mapping
+  - id: sector-trade-07
+    file: sector-trade-07.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Trade Sector Specialist #7 - Evidence & Liability Mapping
+  - id: sector-trade-08
+    file: sector-trade-08.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Trade Sector Specialist #8 - Evidence & Liability Mapping
+  - id: sector-maritime-01
+    file: sector-maritime-01.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Maritime Sector Specialist #1 - Evidence & Liability Mapping
+  - id: sector-maritime-02
+    file: sector-maritime-02.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Maritime Sector Specialist #2 - Evidence & Liability Mapping
+  - id: sector-maritime-03
+    file: sector-maritime-03.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Maritime Sector Specialist #3 - Evidence & Liability Mapping
+  - id: sector-maritime-04
+    file: sector-maritime-04.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Maritime Sector Specialist #4 - Evidence & Liability Mapping
+  - id: sector-maritime-05
+    file: sector-maritime-05.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Maritime Sector Specialist #5 - Evidence & Liability Mapping
+  - id: sector-maritime-06
+    file: sector-maritime-06.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Maritime Sector Specialist #6 - Evidence & Liability Mapping
+  - id: sector-maritime-07
+    file: sector-maritime-07.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Maritime Sector Specialist #7 - Evidence & Liability Mapping
+  - id: sector-maritime-08
+    file: sector-maritime-08.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Maritime Sector Specialist #8 - Evidence & Liability Mapping
+  - id: sector-realestate-01
+    file: sector-realestate-01.yaml
+    status: ACTIVE_SCAFFOLD
+    role: RealEstate Sector Specialist #1 - Evidence & Liability Mapping
+  - id: sector-realestate-02
+    file: sector-realestate-02.yaml
+    status: ACTIVE_SCAFFOLD
+    role: RealEstate Sector Specialist #2 - Evidence & Liability Mapping
+  - id: sector-realestate-03
+    file: sector-realestate-03.yaml
+    status: ACTIVE_SCAFFOLD
+    role: RealEstate Sector Specialist #3 - Evidence & Liability Mapping
+  - id: sector-realestate-04
+    file: sector-realestate-04.yaml
+    status: ACTIVE_SCAFFOLD
+    role: RealEstate Sector Specialist #4 - Evidence & Liability Mapping
+  - id: sector-realestate-05
+    file: sector-realestate-05.yaml
+    status: ACTIVE_SCAFFOLD
+    role: RealEstate Sector Specialist #5 - Evidence & Liability Mapping
+  - id: sector-realestate-06
+    file: sector-realestate-06.yaml
+    status: ACTIVE_SCAFFOLD
+    role: RealEstate Sector Specialist #6 - Evidence & Liability Mapping
+  - id: sector-realestate-07
+    file: sector-realestate-07.yaml
+    status: ACTIVE_SCAFFOLD
+    role: RealEstate Sector Specialist #7 - Evidence & Liability Mapping
+  - id: sector-realestate-08
+    file: sector-realestate-08.yaml
+    status: ACTIVE_SCAFFOLD
+    role: RealEstate Sector Specialist #8 - Evidence & Liability Mapping
+  - id: sector-media-01
+    file: sector-media-01.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Media Sector Specialist #1 - Evidence & Liability Mapping
+  - id: sector-media-02
+    file: sector-media-02.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Media Sector Specialist #2 - Evidence & Liability Mapping
+  - id: sector-media-03
+    file: sector-media-03.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Media Sector Specialist #3 - Evidence & Liability Mapping
+  - id: sector-media-04
+    file: sector-media-04.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Media Sector Specialist #4 - Evidence & Liability Mapping
+  - id: sector-media-05
+    file: sector-media-05.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Media Sector Specialist #5 - Evidence & Liability Mapping
+  - id: sector-media-06
+    file: sector-media-06.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Media Sector Specialist #6 - Evidence & Liability Mapping
+  - id: sector-media-07
+    file: sector-media-07.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Media Sector Specialist #7 - Evidence & Liability Mapping
+  - id: sector-media-08
+    file: sector-media-08.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Media Sector Specialist #8 - Evidence & Liability Mapping
+  - id: sector-judicial-01
+    file: sector-judicial-01.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Judicial Sector Specialist #1 - Evidence & Liability Mapping
+  - id: sector-judicial-02
+    file: sector-judicial-02.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Judicial Sector Specialist #2 - Evidence & Liability Mapping
+  - id: sector-judicial-03
+    file: sector-judicial-03.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Judicial Sector Specialist #3 - Evidence & Liability Mapping
+  - id: sector-judicial-04
+    file: sector-judicial-04.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Judicial Sector Specialist #4 - Evidence & Liability Mapping
+  - id: sector-judicial-05
+    file: sector-judicial-05.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Judicial Sector Specialist #5 - Evidence & Liability Mapping
+  - id: sector-judicial-06
+    file: sector-judicial-06.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Judicial Sector Specialist #6 - Evidence & Liability Mapping
+  - id: sector-judicial-07
+    file: sector-judicial-07.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Judicial Sector Specialist #7 - Evidence & Liability Mapping
+  - id: sector-judicial-08
+    file: sector-judicial-08.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Judicial Sector Specialist #8 - Evidence & Liability Mapping
+  - id: sector-indigenous-01
+    file: sector-indigenous-01.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Indigenous Sector Specialist #1 - Evidence & Liability Mapping
+  - id: sector-indigenous-02
+    file: sector-indigenous-02.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Indigenous Sector Specialist #2 - Evidence & Liability Mapping
+  - id: sector-indigenous-03
+    file: sector-indigenous-03.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Indigenous Sector Specialist #3 - Evidence & Liability Mapping
+  - id: sector-indigenous-04
+    file: sector-indigenous-04.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Indigenous Sector Specialist #4 - Evidence & Liability Mapping
+  - id: sector-indigenous-05
+    file: sector-indigenous-05.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Indigenous Sector Specialist #5 - Evidence & Liability Mapping
+  - id: sector-indigenous-06
+    file: sector-indigenous-06.yaml
+    status: ACTIVE_SCAFFOLD
+    role: Indigenous Sector Specialist #6 - Evidence & Liability Mapping

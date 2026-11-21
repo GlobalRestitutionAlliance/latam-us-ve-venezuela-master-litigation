@@ -1,0 +1,7 @@
+skill:
+  id: source-citation-verification
+  jurisdiction: Venezuela
+  status: ACTIVE
+  description: Verify primary-source citations before filing
+  guardrails:
+    - no_fabricated_citations

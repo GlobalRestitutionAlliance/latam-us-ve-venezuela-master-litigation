@@ -1,0 +1,13 @@
+{
+  "url": "https://www.cia.gov/reading-room/",
+  "final_url": "\"https://www.cia.gov/reading-room/\"",
+  "status": 404,
+  "title": "\"CIA.gov 404\"",
+  "bytes": 100097,
+  "sha256": "237c2cfe65f25745bc08b8ad0f0c6121a290e41610d32ab42d7591b72af290dc",
+  "captured_at": "2026-11-21T18:46:08.313068Z",
+  "custodian": "OpenCode/browser-fallback",
+  "country": "US_VE_VENEZUELA",
+  "iso": "VE",
+  "provenance": "browser-rendered outerHTML; WARC-like metadata sidecar; PUBLIC_CAPTURE_UNAUTHENTICATED; not certified original"
+}

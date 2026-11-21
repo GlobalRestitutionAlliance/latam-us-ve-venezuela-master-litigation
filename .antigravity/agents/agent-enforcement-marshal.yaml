@@ -1,0 +1,8 @@
+agent:
+  id: agent-enforcement-marshal
+  jurisdiction: Venezuela
+  status: ACTIVE
+  role: Asset Tracing & Enforcement
+  guardrails:
+    - no_fabricated_citations
+    - primary_source_verification_required

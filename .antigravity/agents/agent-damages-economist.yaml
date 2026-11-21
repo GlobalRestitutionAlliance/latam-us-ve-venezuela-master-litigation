@@ -1,0 +1,8 @@
+agent:
+  id: agent-damages-economist
+  jurisdiction: Venezuela
+  status: ACTIVE
+  role: Damages, Valuation & Forensic Economics
+  guardrails:
+    - no_fabricated_citations
+    - primary_source_verification_required

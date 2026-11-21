@@ -1,14 +1,1011 @@
+registry: Skill Registry
+version: 2.0.0
 skills:
-- id: icj-judgment-enforcement-and-article-94-sanctions
-  name: ICJ Judgment Enforcement & Article 94 Sanctions
-  status: ACTIVE
-  manifest_file: .antigravity/skills/icj-judgment-enforcement-and-article-94-sanctions.yaml
-- id: historical-intervention-and-canal-concession-audit
-  name: Historical Intervention & Canal Concession Audit
-  status: ACTIVE
-  manifest_file: .antigravity/skills/historical-intervention-and-canal-concession-audit.yaml
-- id: venezuelan-restitution-roadmap-and-qsf-trust-execution
-  name: Venezuelan Restitution Roadmap & QSF Trust Execution
-  status: ACTIVE
-  manifest_file: .antigravity/skills/venezuelan-restitution-roadmap-and-qsf-trust-execution.yaml
-total_skills: 3
+  - id: source-citation-verification
+    file: source-citation-verification.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Source Citation Verification
+  - id: damages-modeling
+    file: damages-modeling.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Damages Modeling
+  - id: discovery-protocol
+    file: discovery-protocol.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Discovery Protocol
+  - id: immunity-analysis
+    file: immunity-analysis.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Immunity Analysis
+  - id: tribunal-admissibility
+    file: tribunal-admissibility.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Tribunal Admissibility
+  - id: asset-tracing
+    file: asset-tracing.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Asset Tracing
+  - id: red-team-review
+    file: red-team-review.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Red Team Review
+  - id: timeline-construction
+    file: timeline-construction.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Timeline Construction
+  - id: document-authentication
+    file: document-authentication.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Document Authentication
+  - id: chain-of-custody-audit
+    file: chain-of-custody-audit.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Chain Of Custody Audit
+  - id: crosswalk-generation
+    file: crosswalk-generation.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Crosswalk Generation
+  - id: complaint-drafting
+    file: complaint-drafting.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Complaint Drafting
+  - id: motion-drafting
+    file: motion-drafting.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Motion Drafting
+  - id: brief-drafting
+    file: brief-drafting.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Brief Drafting
+  - id: discovery-drafting
+    file: discovery-drafting.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Discovery Drafting
+  - id: tribunal-petition-drafting
+    file: tribunal-petition-drafting.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Tribunal Petition Drafting
+  - id: settlement-trust-design
+    file: settlement-trust-design.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Settlement Trust Design
+  - id: expert-witness-coordination
+    file: expert-witness-coordination.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Expert Witness Coordination
+  - id: translation-verification
+    file: translation-verification.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Translation Verification
+  - id: public-record-corroboration
+    file: public-record-corroboration.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Public Record Corroboration
+  - id: debt-skill-01
+    file: debt-skill-01.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Debt Skill #1 - Scaffold
+  - id: debt-skill-02
+    file: debt-skill-02.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Debt Skill #2 - Scaffold
+  - id: debt-skill-03
+    file: debt-skill-03.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Debt Skill #3 - Scaffold
+  - id: debt-skill-04
+    file: debt-skill-04.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Debt Skill #4 - Scaffold
+  - id: debt-skill-05
+    file: debt-skill-05.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Debt Skill #5 - Scaffold
+  - id: debt-skill-06
+    file: debt-skill-06.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Debt Skill #6 - Scaffold
+  - id: debt-skill-07
+    file: debt-skill-07.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Debt Skill #7 - Scaffold
+  - id: debt-skill-08
+    file: debt-skill-08.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Debt Skill #8 - Scaffold
+  - id: debt-skill-09
+    file: debt-skill-09.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Debt Skill #9 - Scaffold
+  - id: debt-skill-10
+    file: debt-skill-10.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Debt Skill #10 - Scaffold
+  - id: debt-skill-11
+    file: debt-skill-11.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Debt Skill #11 - Scaffold
+  - id: debt-skill-12
+    file: debt-skill-12.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Debt Skill #12 - Scaffold
+  - id: energy-skill-01
+    file: energy-skill-01.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Energy Skill #1 - Scaffold
+  - id: energy-skill-02
+    file: energy-skill-02.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Energy Skill #2 - Scaffold
+  - id: energy-skill-03
+    file: energy-skill-03.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Energy Skill #3 - Scaffold
+  - id: energy-skill-04
+    file: energy-skill-04.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Energy Skill #4 - Scaffold
+  - id: energy-skill-05
+    file: energy-skill-05.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Energy Skill #5 - Scaffold
+  - id: energy-skill-06
+    file: energy-skill-06.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Energy Skill #6 - Scaffold
+  - id: energy-skill-07
+    file: energy-skill-07.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Energy Skill #7 - Scaffold
+  - id: energy-skill-08
+    file: energy-skill-08.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Energy Skill #8 - Scaffold
+  - id: energy-skill-09
+    file: energy-skill-09.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Energy Skill #9 - Scaffold
+  - id: energy-skill-10
+    file: energy-skill-10.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Energy Skill #10 - Scaffold
+  - id: energy-skill-11
+    file: energy-skill-11.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Energy Skill #11 - Scaffold
+  - id: energy-skill-12
+    file: energy-skill-12.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Energy Skill #12 - Scaffold
+  - id: mining-skill-01
+    file: mining-skill-01.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Mining Skill #1 - Scaffold
+  - id: mining-skill-02
+    file: mining-skill-02.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Mining Skill #2 - Scaffold
+  - id: mining-skill-03
+    file: mining-skill-03.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Mining Skill #3 - Scaffold
+  - id: mining-skill-04
+    file: mining-skill-04.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Mining Skill #4 - Scaffold
+  - id: mining-skill-05
+    file: mining-skill-05.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Mining Skill #5 - Scaffold
+  - id: mining-skill-06
+    file: mining-skill-06.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Mining Skill #6 - Scaffold
+  - id: mining-skill-07
+    file: mining-skill-07.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Mining Skill #7 - Scaffold
+  - id: mining-skill-08
+    file: mining-skill-08.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Mining Skill #8 - Scaffold
+  - id: mining-skill-09
+    file: mining-skill-09.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Mining Skill #9 - Scaffold
+  - id: mining-skill-10
+    file: mining-skill-10.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Mining Skill #10 - Scaffold
+  - id: mining-skill-11
+    file: mining-skill-11.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Mining Skill #11 - Scaffold
+  - id: mining-skill-12
+    file: mining-skill-12.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Mining Skill #12 - Scaffold
+  - id: agriculture-skill-01
+    file: agriculture-skill-01.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Agriculture Skill #1 - Scaffold
+  - id: agriculture-skill-02
+    file: agriculture-skill-02.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Agriculture Skill #2 - Scaffold
+  - id: agriculture-skill-03
+    file: agriculture-skill-03.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Agriculture Skill #3 - Scaffold
+  - id: agriculture-skill-04
+    file: agriculture-skill-04.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Agriculture Skill #4 - Scaffold
+  - id: agriculture-skill-05
+    file: agriculture-skill-05.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Agriculture Skill #5 - Scaffold
+  - id: agriculture-skill-06
+    file: agriculture-skill-06.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Agriculture Skill #6 - Scaffold
+  - id: agriculture-skill-07
+    file: agriculture-skill-07.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Agriculture Skill #7 - Scaffold
+  - id: agriculture-skill-08
+    file: agriculture-skill-08.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Agriculture Skill #8 - Scaffold
+  - id: agriculture-skill-09
+    file: agriculture-skill-09.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Agriculture Skill #9 - Scaffold
+  - id: agriculture-skill-10
+    file: agriculture-skill-10.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Agriculture Skill #10 - Scaffold
+  - id: agriculture-skill-11
+    file: agriculture-skill-11.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Agriculture Skill #11 - Scaffold
+  - id: agriculture-skill-12
+    file: agriculture-skill-12.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Agriculture Skill #12 - Scaffold
+  - id: infrastructure-skill-01
+    file: infrastructure-skill-01.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Infrastructure Skill #1 - Scaffold
+  - id: infrastructure-skill-02
+    file: infrastructure-skill-02.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Infrastructure Skill #2 - Scaffold
+  - id: infrastructure-skill-03
+    file: infrastructure-skill-03.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Infrastructure Skill #3 - Scaffold
+  - id: infrastructure-skill-04
+    file: infrastructure-skill-04.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Infrastructure Skill #4 - Scaffold
+  - id: infrastructure-skill-05
+    file: infrastructure-skill-05.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Infrastructure Skill #5 - Scaffold
+  - id: infrastructure-skill-06
+    file: infrastructure-skill-06.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Infrastructure Skill #6 - Scaffold
+  - id: infrastructure-skill-07
+    file: infrastructure-skill-07.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Infrastructure Skill #7 - Scaffold
+  - id: infrastructure-skill-08
+    file: infrastructure-skill-08.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Infrastructure Skill #8 - Scaffold
+  - id: infrastructure-skill-09
+    file: infrastructure-skill-09.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Infrastructure Skill #9 - Scaffold
+  - id: infrastructure-skill-10
+    file: infrastructure-skill-10.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Infrastructure Skill #10 - Scaffold
+  - id: infrastructure-skill-11
+    file: infrastructure-skill-11.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Infrastructure Skill #11 - Scaffold
+  - id: infrastructure-skill-12
+    file: infrastructure-skill-12.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Infrastructure Skill #12 - Scaffold
+  - id: telecom-skill-01
+    file: telecom-skill-01.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Telecom Skill #1 - Scaffold
+  - id: telecom-skill-02
+    file: telecom-skill-02.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Telecom Skill #2 - Scaffold
+  - id: telecom-skill-03
+    file: telecom-skill-03.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Telecom Skill #3 - Scaffold
+  - id: telecom-skill-04
+    file: telecom-skill-04.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Telecom Skill #4 - Scaffold
+  - id: telecom-skill-05
+    file: telecom-skill-05.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Telecom Skill #5 - Scaffold
+  - id: telecom-skill-06
+    file: telecom-skill-06.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Telecom Skill #6 - Scaffold
+  - id: telecom-skill-07
+    file: telecom-skill-07.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Telecom Skill #7 - Scaffold
+  - id: telecom-skill-08
+    file: telecom-skill-08.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Telecom Skill #8 - Scaffold
+  - id: telecom-skill-09
+    file: telecom-skill-09.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Telecom Skill #9 - Scaffold
+  - id: telecom-skill-10
+    file: telecom-skill-10.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Telecom Skill #10 - Scaffold
+  - id: telecom-skill-11
+    file: telecom-skill-11.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Telecom Skill #11 - Scaffold
+  - id: telecom-skill-12
+    file: telecom-skill-12.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Telecom Skill #12 - Scaffold
+  - id: banking-skill-01
+    file: banking-skill-01.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Banking Skill #1 - Scaffold
+  - id: banking-skill-02
+    file: banking-skill-02.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Banking Skill #2 - Scaffold
+  - id: banking-skill-03
+    file: banking-skill-03.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Banking Skill #3 - Scaffold
+  - id: banking-skill-04
+    file: banking-skill-04.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Banking Skill #4 - Scaffold
+  - id: banking-skill-05
+    file: banking-skill-05.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Banking Skill #5 - Scaffold
+  - id: banking-skill-06
+    file: banking-skill-06.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Banking Skill #6 - Scaffold
+  - id: banking-skill-07
+    file: banking-skill-07.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Banking Skill #7 - Scaffold
+  - id: banking-skill-08
+    file: banking-skill-08.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Banking Skill #8 - Scaffold
+  - id: banking-skill-09
+    file: banking-skill-09.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Banking Skill #9 - Scaffold
+  - id: banking-skill-10
+    file: banking-skill-10.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Banking Skill #10 - Scaffold
+  - id: banking-skill-11
+    file: banking-skill-11.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Banking Skill #11 - Scaffold
+  - id: banking-skill-12
+    file: banking-skill-12.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Banking Skill #12 - Scaffold
+  - id: defense-skill-01
+    file: defense-skill-01.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Defense Skill #1 - Scaffold
+  - id: defense-skill-02
+    file: defense-skill-02.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Defense Skill #2 - Scaffold
+  - id: defense-skill-03
+    file: defense-skill-03.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Defense Skill #3 - Scaffold
+  - id: defense-skill-04
+    file: defense-skill-04.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Defense Skill #4 - Scaffold
+  - id: defense-skill-05
+    file: defense-skill-05.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Defense Skill #5 - Scaffold
+  - id: defense-skill-06
+    file: defense-skill-06.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Defense Skill #6 - Scaffold
+  - id: defense-skill-07
+    file: defense-skill-07.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Defense Skill #7 - Scaffold
+  - id: defense-skill-08
+    file: defense-skill-08.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Defense Skill #8 - Scaffold
+  - id: defense-skill-09
+    file: defense-skill-09.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Defense Skill #9 - Scaffold
+  - id: defense-skill-10
+    file: defense-skill-10.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Defense Skill #10 - Scaffold
+  - id: defense-skill-11
+    file: defense-skill-11.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Defense Skill #11 - Scaffold
+  - id: defense-skill-12
+    file: defense-skill-12.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Defense Skill #12 - Scaffold
+  - id: humanrights-skill-01
+    file: humanrights-skill-01.yaml
+    status: ACTIVE_SCAFFOLD
+    description: HumanRights Skill #1 - Scaffold
+  - id: humanrights-skill-02
+    file: humanrights-skill-02.yaml
+    status: ACTIVE_SCAFFOLD
+    description: HumanRights Skill #2 - Scaffold
+  - id: humanrights-skill-03
+    file: humanrights-skill-03.yaml
+    status: ACTIVE_SCAFFOLD
+    description: HumanRights Skill #3 - Scaffold
+  - id: humanrights-skill-04
+    file: humanrights-skill-04.yaml
+    status: ACTIVE_SCAFFOLD
+    description: HumanRights Skill #4 - Scaffold
+  - id: humanrights-skill-05
+    file: humanrights-skill-05.yaml
+    status: ACTIVE_SCAFFOLD
+    description: HumanRights Skill #5 - Scaffold
+  - id: humanrights-skill-06
+    file: humanrights-skill-06.yaml
+    status: ACTIVE_SCAFFOLD
+    description: HumanRights Skill #6 - Scaffold
+  - id: humanrights-skill-07
+    file: humanrights-skill-07.yaml
+    status: ACTIVE_SCAFFOLD
+    description: HumanRights Skill #7 - Scaffold
+  - id: humanrights-skill-08
+    file: humanrights-skill-08.yaml
+    status: ACTIVE_SCAFFOLD
+    description: HumanRights Skill #8 - Scaffold
+  - id: humanrights-skill-09
+    file: humanrights-skill-09.yaml
+    status: ACTIVE_SCAFFOLD
+    description: HumanRights Skill #9 - Scaffold
+  - id: humanrights-skill-10
+    file: humanrights-skill-10.yaml
+    status: ACTIVE_SCAFFOLD
+    description: HumanRights Skill #10 - Scaffold
+  - id: humanrights-skill-11
+    file: humanrights-skill-11.yaml
+    status: ACTIVE_SCAFFOLD
+    description: HumanRights Skill #11 - Scaffold
+  - id: humanrights-skill-12
+    file: humanrights-skill-12.yaml
+    status: ACTIVE_SCAFFOLD
+    description: HumanRights Skill #12 - Scaffold
+  - id: environment-skill-01
+    file: environment-skill-01.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Environment Skill #1 - Scaffold
+  - id: environment-skill-02
+    file: environment-skill-02.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Environment Skill #2 - Scaffold
+  - id: environment-skill-03
+    file: environment-skill-03.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Environment Skill #3 - Scaffold
+  - id: environment-skill-04
+    file: environment-skill-04.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Environment Skill #4 - Scaffold
+  - id: environment-skill-05
+    file: environment-skill-05.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Environment Skill #5 - Scaffold
+  - id: environment-skill-06
+    file: environment-skill-06.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Environment Skill #6 - Scaffold
+  - id: environment-skill-07
+    file: environment-skill-07.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Environment Skill #7 - Scaffold
+  - id: environment-skill-08
+    file: environment-skill-08.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Environment Skill #8 - Scaffold
+  - id: environment-skill-09
+    file: environment-skill-09.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Environment Skill #9 - Scaffold
+  - id: environment-skill-10
+    file: environment-skill-10.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Environment Skill #10 - Scaffold
+  - id: environment-skill-11
+    file: environment-skill-11.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Environment Skill #11 - Scaffold
+  - id: environment-skill-12
+    file: environment-skill-12.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Environment Skill #12 - Scaffold
+  - id: labor-skill-01
+    file: labor-skill-01.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Labor Skill #1 - Scaffold
+  - id: labor-skill-02
+    file: labor-skill-02.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Labor Skill #2 - Scaffold
+  - id: labor-skill-03
+    file: labor-skill-03.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Labor Skill #3 - Scaffold
+  - id: labor-skill-04
+    file: labor-skill-04.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Labor Skill #4 - Scaffold
+  - id: labor-skill-05
+    file: labor-skill-05.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Labor Skill #5 - Scaffold
+  - id: labor-skill-06
+    file: labor-skill-06.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Labor Skill #6 - Scaffold
+  - id: labor-skill-07
+    file: labor-skill-07.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Labor Skill #7 - Scaffold
+  - id: labor-skill-08
+    file: labor-skill-08.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Labor Skill #8 - Scaffold
+  - id: labor-skill-09
+    file: labor-skill-09.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Labor Skill #9 - Scaffold
+  - id: labor-skill-10
+    file: labor-skill-10.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Labor Skill #10 - Scaffold
+  - id: labor-skill-11
+    file: labor-skill-11.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Labor Skill #11 - Scaffold
+  - id: labor-skill-12
+    file: labor-skill-12.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Labor Skill #12 - Scaffold
+  - id: health-skill-01
+    file: health-skill-01.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Health Skill #1 - Scaffold
+  - id: health-skill-02
+    file: health-skill-02.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Health Skill #2 - Scaffold
+  - id: health-skill-03
+    file: health-skill-03.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Health Skill #3 - Scaffold
+  - id: health-skill-04
+    file: health-skill-04.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Health Skill #4 - Scaffold
+  - id: health-skill-05
+    file: health-skill-05.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Health Skill #5 - Scaffold
+  - id: health-skill-06
+    file: health-skill-06.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Health Skill #6 - Scaffold
+  - id: health-skill-07
+    file: health-skill-07.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Health Skill #7 - Scaffold
+  - id: health-skill-08
+    file: health-skill-08.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Health Skill #8 - Scaffold
+  - id: health-skill-09
+    file: health-skill-09.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Health Skill #9 - Scaffold
+  - id: health-skill-10
+    file: health-skill-10.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Health Skill #10 - Scaffold
+  - id: health-skill-11
+    file: health-skill-11.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Health Skill #11 - Scaffold
+  - id: health-skill-12
+    file: health-skill-12.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Health Skill #12 - Scaffold
+  - id: education-skill-01
+    file: education-skill-01.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Education Skill #1 - Scaffold
+  - id: education-skill-02
+    file: education-skill-02.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Education Skill #2 - Scaffold
+  - id: education-skill-03
+    file: education-skill-03.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Education Skill #3 - Scaffold
+  - id: education-skill-04
+    file: education-skill-04.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Education Skill #4 - Scaffold
+  - id: education-skill-05
+    file: education-skill-05.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Education Skill #5 - Scaffold
+  - id: education-skill-06
+    file: education-skill-06.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Education Skill #6 - Scaffold
+  - id: education-skill-07
+    file: education-skill-07.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Education Skill #7 - Scaffold
+  - id: education-skill-08
+    file: education-skill-08.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Education Skill #8 - Scaffold
+  - id: education-skill-09
+    file: education-skill-09.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Education Skill #9 - Scaffold
+  - id: education-skill-10
+    file: education-skill-10.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Education Skill #10 - Scaffold
+  - id: education-skill-11
+    file: education-skill-11.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Education Skill #11 - Scaffold
+  - id: education-skill-12
+    file: education-skill-12.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Education Skill #12 - Scaffold
+  - id: trade-skill-01
+    file: trade-skill-01.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Trade Skill #1 - Scaffold
+  - id: trade-skill-02
+    file: trade-skill-02.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Trade Skill #2 - Scaffold
+  - id: trade-skill-03
+    file: trade-skill-03.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Trade Skill #3 - Scaffold
+  - id: trade-skill-04
+    file: trade-skill-04.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Trade Skill #4 - Scaffold
+  - id: trade-skill-05
+    file: trade-skill-05.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Trade Skill #5 - Scaffold
+  - id: trade-skill-06
+    file: trade-skill-06.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Trade Skill #6 - Scaffold
+  - id: trade-skill-07
+    file: trade-skill-07.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Trade Skill #7 - Scaffold
+  - id: trade-skill-08
+    file: trade-skill-08.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Trade Skill #8 - Scaffold
+  - id: trade-skill-09
+    file: trade-skill-09.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Trade Skill #9 - Scaffold
+  - id: trade-skill-10
+    file: trade-skill-10.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Trade Skill #10 - Scaffold
+  - id: trade-skill-11
+    file: trade-skill-11.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Trade Skill #11 - Scaffold
+  - id: trade-skill-12
+    file: trade-skill-12.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Trade Skill #12 - Scaffold
+  - id: maritime-skill-01
+    file: maritime-skill-01.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Maritime Skill #1 - Scaffold
+  - id: maritime-skill-02
+    file: maritime-skill-02.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Maritime Skill #2 - Scaffold
+  - id: maritime-skill-03
+    file: maritime-skill-03.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Maritime Skill #3 - Scaffold
+  - id: maritime-skill-04
+    file: maritime-skill-04.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Maritime Skill #4 - Scaffold
+  - id: maritime-skill-05
+    file: maritime-skill-05.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Maritime Skill #5 - Scaffold
+  - id: maritime-skill-06
+    file: maritime-skill-06.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Maritime Skill #6 - Scaffold
+  - id: maritime-skill-07
+    file: maritime-skill-07.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Maritime Skill #7 - Scaffold
+  - id: maritime-skill-08
+    file: maritime-skill-08.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Maritime Skill #8 - Scaffold
+  - id: maritime-skill-09
+    file: maritime-skill-09.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Maritime Skill #9 - Scaffold
+  - id: maritime-skill-10
+    file: maritime-skill-10.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Maritime Skill #10 - Scaffold
+  - id: maritime-skill-11
+    file: maritime-skill-11.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Maritime Skill #11 - Scaffold
+  - id: maritime-skill-12
+    file: maritime-skill-12.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Maritime Skill #12 - Scaffold
+  - id: realestate-skill-01
+    file: realestate-skill-01.yaml
+    status: ACTIVE_SCAFFOLD
+    description: RealEstate Skill #1 - Scaffold
+  - id: realestate-skill-02
+    file: realestate-skill-02.yaml
+    status: ACTIVE_SCAFFOLD
+    description: RealEstate Skill #2 - Scaffold
+  - id: realestate-skill-03
+    file: realestate-skill-03.yaml
+    status: ACTIVE_SCAFFOLD
+    description: RealEstate Skill #3 - Scaffold
+  - id: realestate-skill-04
+    file: realestate-skill-04.yaml
+    status: ACTIVE_SCAFFOLD
+    description: RealEstate Skill #4 - Scaffold
+  - id: realestate-skill-05
+    file: realestate-skill-05.yaml
+    status: ACTIVE_SCAFFOLD
+    description: RealEstate Skill #5 - Scaffold
+  - id: realestate-skill-06
+    file: realestate-skill-06.yaml
+    status: ACTIVE_SCAFFOLD
+    description: RealEstate Skill #6 - Scaffold
+  - id: realestate-skill-07
+    file: realestate-skill-07.yaml
+    status: ACTIVE_SCAFFOLD
+    description: RealEstate Skill #7 - Scaffold
+  - id: realestate-skill-08
+    file: realestate-skill-08.yaml
+    status: ACTIVE_SCAFFOLD
+    description: RealEstate Skill #8 - Scaffold
+  - id: realestate-skill-09
+    file: realestate-skill-09.yaml
+    status: ACTIVE_SCAFFOLD
+    description: RealEstate Skill #9 - Scaffold
+  - id: realestate-skill-10
+    file: realestate-skill-10.yaml
+    status: ACTIVE_SCAFFOLD
+    description: RealEstate Skill #10 - Scaffold
+  - id: realestate-skill-11
+    file: realestate-skill-11.yaml
+    status: ACTIVE_SCAFFOLD
+    description: RealEstate Skill #11 - Scaffold
+  - id: realestate-skill-12
+    file: realestate-skill-12.yaml
+    status: ACTIVE_SCAFFOLD
+    description: RealEstate Skill #12 - Scaffold
+  - id: media-skill-01
+    file: media-skill-01.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Media Skill #1 - Scaffold
+  - id: media-skill-02
+    file: media-skill-02.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Media Skill #2 - Scaffold
+  - id: media-skill-03
+    file: media-skill-03.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Media Skill #3 - Scaffold
+  - id: media-skill-04
+    file: media-skill-04.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Media Skill #4 - Scaffold
+  - id: media-skill-05
+    file: media-skill-05.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Media Skill #5 - Scaffold
+  - id: media-skill-06
+    file: media-skill-06.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Media Skill #6 - Scaffold
+  - id: media-skill-07
+    file: media-skill-07.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Media Skill #7 - Scaffold
+  - id: media-skill-08
+    file: media-skill-08.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Media Skill #8 - Scaffold
+  - id: media-skill-09
+    file: media-skill-09.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Media Skill #9 - Scaffold
+  - id: media-skill-10
+    file: media-skill-10.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Media Skill #10 - Scaffold
+  - id: media-skill-11
+    file: media-skill-11.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Media Skill #11 - Scaffold
+  - id: media-skill-12
+    file: media-skill-12.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Media Skill #12 - Scaffold
+  - id: judicial-skill-01
+    file: judicial-skill-01.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Judicial Skill #1 - Scaffold
+  - id: judicial-skill-02
+    file: judicial-skill-02.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Judicial Skill #2 - Scaffold
+  - id: judicial-skill-03
+    file: judicial-skill-03.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Judicial Skill #3 - Scaffold
+  - id: judicial-skill-04
+    file: judicial-skill-04.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Judicial Skill #4 - Scaffold
+  - id: judicial-skill-05
+    file: judicial-skill-05.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Judicial Skill #5 - Scaffold
+  - id: judicial-skill-06
+    file: judicial-skill-06.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Judicial Skill #6 - Scaffold
+  - id: judicial-skill-07
+    file: judicial-skill-07.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Judicial Skill #7 - Scaffold
+  - id: judicial-skill-08
+    file: judicial-skill-08.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Judicial Skill #8 - Scaffold
+  - id: judicial-skill-09
+    file: judicial-skill-09.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Judicial Skill #9 - Scaffold
+  - id: judicial-skill-10
+    file: judicial-skill-10.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Judicial Skill #10 - Scaffold
+  - id: judicial-skill-11
+    file: judicial-skill-11.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Judicial Skill #11 - Scaffold
+  - id: judicial-skill-12
+    file: judicial-skill-12.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Judicial Skill #12 - Scaffold
+  - id: indigenous-skill-01
+    file: indigenous-skill-01.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Indigenous Skill #1 - Scaffold
+  - id: indigenous-skill-02
+    file: indigenous-skill-02.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Indigenous Skill #2 - Scaffold
+  - id: indigenous-skill-03
+    file: indigenous-skill-03.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Indigenous Skill #3 - Scaffold
+  - id: indigenous-skill-04
+    file: indigenous-skill-04.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Indigenous Skill #4 - Scaffold
+  - id: indigenous-skill-05
+    file: indigenous-skill-05.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Indigenous Skill #5 - Scaffold
+  - id: indigenous-skill-06
+    file: indigenous-skill-06.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Indigenous Skill #6 - Scaffold
+  - id: indigenous-skill-07
+    file: indigenous-skill-07.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Indigenous Skill #7 - Scaffold
+  - id: indigenous-skill-08
+    file: indigenous-skill-08.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Indigenous Skill #8 - Scaffold
+  - id: indigenous-skill-09
+    file: indigenous-skill-09.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Indigenous Skill #9 - Scaffold
+  - id: indigenous-skill-10
+    file: indigenous-skill-10.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Indigenous Skill #10 - Scaffold
+  - id: indigenous-skill-11
+    file: indigenous-skill-11.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Indigenous Skill #11 - Scaffold
+  - id: indigenous-skill-12
+    file: indigenous-skill-12.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Indigenous Skill #12 - Scaffold
+  - id: disaster-skill-01
+    file: disaster-skill-01.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Disaster Skill #1 - Scaffold
+  - id: disaster-skill-02
+    file: disaster-skill-02.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Disaster Skill #2 - Scaffold
+  - id: disaster-skill-03
+    file: disaster-skill-03.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Disaster Skill #3 - Scaffold
+  - id: disaster-skill-04
+    file: disaster-skill-04.yaml
+    status: ACTIVE_SCAFFOLD
+    description: Disaster Skill #4 - Scaffold

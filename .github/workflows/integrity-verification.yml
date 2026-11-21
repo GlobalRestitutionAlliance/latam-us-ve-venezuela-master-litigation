@@ -1,0 +1,53 @@
+name: Evidentiary Integrity Verification
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  verify-hashes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Verify SHA-256 Manifest
+        run: |
+          if [ -f VERIFICATION_KEYS/sha256_manifest.txt ]; then
+            echo "Verifying evidentiary payload integrity..."
+            sha256sum -c VERIFICATION_KEYS/sha256_manifest.txt --strict
+            echo "All hashes verified. Chain of custody intact."
+          else
+            echo "No sha256 manifest found; skipping hash verification."
+          fi
+
+      - name: Verify Vector Index Count (if present)
+        run: |
+          if ls .antigravity/knowledge/vector-index/*.yaml >/dev/null 2>&1; then
+            VECTOR_COUNT=$(grep -h "vector_id:" .antigravity/knowledge/vector-index/*.yaml | wc -l | tr -d ' ')
+            echo "Vector entries found: $VECTOR_COUNT"
+            if [ "$VECTOR_COUNT" -lt 1 ]; then
+              echo "VECTOR COUNT INVALID."
+              exit 1
+            fi
+          else
+            echo "No vector index files found; skipping vector count check."
+          fi
+
+      - name: Check for Prohibited Alterations
+        run: |
+          if [ "$(git rev-parse --verify HEAD~1 2>/dev/null)" ]; then
+            CHANGED=$(git diff --name-only HEAD~1 HEAD | grep -E "(historical-timeline|legal-precedents|Master_Chain_of_Custody_Log)" || true)
+            if [ -n "$CHANGED" ]; then
+              echo "ALERT: Attempted modification of locked foundational records:"
+              echo "$CHANGED"
+              exit 1
+            fi
+            echo "Foundational records untouched."
+          else
+            echo "Initial commit or single commit range; skipping diff check."
+          fi

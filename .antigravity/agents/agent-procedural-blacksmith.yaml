@@ -1,0 +1,8 @@
+agent:
+  id: agent-procedural-blacksmith
+  jurisdiction: Venezuela
+  status: ACTIVE
+  role: Pleadings, Motions, Procedural Compliance
+  guardrails:
+    - no_fabricated_citations
+    - primary_source_verification_required

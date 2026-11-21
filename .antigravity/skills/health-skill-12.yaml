@@ -1,0 +1,9 @@
+skill:
+  id: health-skill-12
+  jurisdiction: Venezuela
+  iso: VE
+  status: ACTIVE_SCAFFOLD
+  description: Health Skill #12 - Scaffold
+  guardrails:
+    - no_fabricated_citations
+    - primary_source_verification_required

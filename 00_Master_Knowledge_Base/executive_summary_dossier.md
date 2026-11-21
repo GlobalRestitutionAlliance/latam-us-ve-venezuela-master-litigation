@@ -1,63 +1,49 @@
-# Executive Summary Dossier: Republic of Venezuela Restitution Litigation
+# Executive Summary Dossier - Venezuela
 
-> **Target:** The Government of the United States of America & Designated Transnational Successors  
-> **Complainant / Beneficiary:** The Republic of Venezuela & The Venezuelan People  
-> **Supervising Entity:** Global Restitution Alliance Maintainer Council  
-> **Restitution Fund:** Qualified Settlement Fund (QSF) Trust (26 U.S.C. § 468B)  
-> **Campaign 01 Restitution Pool:** **$250,000,000,000.00 USD ($250.00 Billion)**  
+**Jurisdiction:** United States – Venezuela (VE)  
+**Generated:** 2026-11-21  
+**Status:** ACTIVE SCAFFOLD - EVIDENTIARY VERIFICATION REQUIRED
 
 ---
 
-## 1. Doctrinal Overview & Foundational Adjudication
+## Mission
+Establish a verifiable, country-specific restitution litigation scaffold for US–Venezuela claims, aligned to Cuba-template structure.
 
-The United States – Venezuela Master Restitution Litigation Framework rests upon a jurisprudential foundation that is uniquely definitive in modern public international law: a **final, non-appealable Judgment on the Merits rendered by the International Court of Justice on 27 June 1986**.
+## Key Issues
+Sanctions, oil, political intervention claims
 
-In *Military and Paramilitary Activities in and against Venezuela (Venezuela v. United States of America)*, the ICJ held:
-1. **Compulsory Jurisdiction Confirmed:** The United States had accepted compulsory jurisdiction under Article 36(2) of the ICJ Statute and could not unilaterally modify its declaration on 6 April 1984 with immediate effect to evade adjudication.
-2. **Breaches of Customary International Law:** The United States directly violated international obligations by:
-   - Laying naval mines in Venezuelan internal and territorial waters (Corinto, Puerto Sandino);
-   - Attacking Venezuelan ports, oil installations, and civilian infrastructure;
-   - Training, arming, equipping, and financing paramilitary forces (*Contras*) to overthrow the lawful sovereign government;
-   - Violating sovereign airspace and producing/disseminating a manual inciting political assassinations and war crimes (*Psychological Operations in Guerrilla Warfare*).
-3. **Mandatory Restitution (*Operative ¶ 292(13)*):** The Court adjudged that the United States is under an active, continuing international legal duty to make full financial and physical reparation to the Republic of Venezuela.
+## High-Level Anchors
+- Oil nationalization/expropriation disputes (public record)
+- Sanctions and economic impacts (public policy record)
+- Political crisis and external intervention allegations (public record)
 
----
+## Planning Metrics
+- Instruments: 25
+- Planning Pool: $80,000,000,000 USD (subject to evidentiary validation)
 
-## 2. Compounding Quantum: The $250.00 Billion Restitution Pool
-
-In its 1989 Memorial on Compensation, Venezuela demonstrated direct physical, economic, and human damages totaling **$12.848 Billion**.
-
-Under the landmark *Factory at Chorzów* jurisprudence (PCIJ, Series A, No. 17, 1928), reparation must "wipe out all the consequences of the illegal act and re-establish the situation which would, in all probability, have existed if that act had not been committed." 
-
-Compounding the 1989 ICJ claim across 37 years of bad-faith sovereign non-payment at customary commercial rates (6.0%–7.2%) yields between **$111.0 Billion and $157.0 Billion** in direct judgment obligations alone.
-
-When integrated with the unliquidated, continuous damages spanning the **172-Year Continuum (1854–2026)**—specifically:
-- The 1854 Greytown bombardment spoliation;
-- William Walker filibuster usurpations (1855–1857);
-- The 1909 Knox Note regime overthrow;
-- The 1912–1933 Marine Occupations and financial receivership of customs revenues;
-- The Central American Court of Justice (CACJ) 1916/1917 nullification of the Bryan-Chamorro Treaty canal monopoly;
-- Transnational corporate resource disgorgement (Standard Fruit, Rosario Mining, ASARCO);
-
-the certified Campaign 01 valuation totals **$250.00 Billion USD**.
+## Immediate Next Actions
+1. Attach primary-source citations to each instrument.
+2. Validate legal theories, fora, and procedural requirements.
+3. Build forensic valuation and damages model per instrument.
 
 ---
 
-## 3. Enforcement Strategy & Sovereign Immunity Piercing
+## Verification Guardrail
+This document is a litigation/research scaffold. It contains no fabricated citations, docket numbers, or archival identifiers. All factual assertions, legal citations, and valuations must be verified against primary sources before external use.
 
-To neutralize common defense tactics based on sovereign immunity, this litigation deploys a four-tiered civil procedure strategy:
+## Verified Source Citations (PENDING_LEGAL_REVIEW)
 
-### A. Sovereign Immunity Forfeiture via UN Charter Art. 94(2) Default
-The United States has systematically deployed its unilateral veto in the UN Security Council to block draft resolutions mandating compliance with the ICJ Judgment. In international law, continuous bad-faith obstruction of a binding judicial decree constitutes an abuse of rights and sovereign default, forfeiting customary sovereign immunity protections over foreign commercial assets under UNCSI Articles 12 & 19.
+Rule: No citation marked VERIFIED without local hashed source artifact and counsel sign-off.
 
-### B. Foreign Sovereign Immunities Act (FSIA) Commercial Attachment
-Pursuant to 28 U.S.C. § 1610(a)(6), property of a foreign state in the United States used for commercial activity is not immune from attachment in aid of execution or from execution upon a judgment based on an order confirming an arbitral or judicial award. Foreign state commercial holdings, offshore dollar clearing facilities, and central bank repurchase facilities will be systematically targeted for post-judgment garnishment.
-
-### C. Foreign Exequatur in Reciprocal Jurisdictions
-Execution will be initiated in high-liquidity foreign jurisdictions (e.g., London, Paris, Frankfurt, Singapore) under domestic exequatur doctrines recognizing final ICJ judgments as unreviewable foreign judgments on the merits.
-
-### D. Qualified Settlement Fund (QSF) Trust Indenture
-Recoveries will be held and administered under 26 U.S.C. § 468B, insulating capital from political reallocation and directly financing:
-1. Public health, trauma rehabilitation, and survivor annuities;
-2. Reconstruction of ports, electrical grids, and water infrastructure damaged by naval strikes;
-3. Environmental decontamination of mined marine corridors and herbicide-damaged agricultural basins.
+- VE-CIT-0001: IACHR :: Country Reports | https://www.oas.org/en/iachr/reports/country.asp | local=`03_Evidentiary_Exhibits/Immutable_Ledger/VE_01_IACHR_-_Venezuela_Serious_Human_Rights_Violations_Following_the_Elections_2025_browser.html` | sha256=`cf40fd0f747ec40c...` | status=PENDING_LEGAL_REVIEW
+- VE-CIT-0002: ICJ - Arbitral Award of 3 October 1899 (Guyana v. Venezuela) | https://www.icj-cij.org/case/171 | local=`03_Evidentiary_Exhibits/Immutable_Ledger/VE_02_ICJ_-_Arbitral_Award_of_3_October_1899_Guyana_v._Venezuela.html` | sha256=`6cc183678162b8c9...` | status=PENDING_LEGAL_REVIEW
+- VE-CIT-0003: UN Digital Library - Search | https://digitallibrary.un.org/search | local=`03_Evidentiary_Exhibits/Immutable_Ledger/VE_03_UN_Digital_Library_-_Search.html` | sha256=`e3b0c44298fc1c14...` | status=PENDING_LEGAL_REVIEW
+- VE-CIT-0004: Countries | OHCHR | https://www.ohchr.org/en/countries | local=`03_Evidentiary_Exhibits/Immutable_Ledger/VE_04_UN_OHCHR_-_Country_Pages_browser.html` | sha256=`49662d4dbf47bb6d...` | status=PENDING_LEGAL_REVIEW
+- VE-CIT-0005: UN Treaty Body Database | https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/TBSearch.aspx | local=`03_Evidentiary_Exhibits/Immutable_Ledger/VE_05_UN_Treaty_Body_Database.html` | sha256=`145e67a491be2e02...` | status=PENDING_LEGAL_REVIEW
+- VE-CIT-0006: Universal Periodic Review | OHCHR | https://www.ohchr.org/en/hr-bodies/upr/upr-home | local=`03_Evidentiary_Exhibits/Immutable_Ledger/VE_06_UN_Human_Rights_Council_-_Universal_Periodic_Review_browser.html` | sha256=`cfdbc1bead5f916a...` | status=PENDING_LEGAL_REVIEW
+- VE-CIT-0007: Annual Reports | https://www.oas.org/en/iachr/reports/ia.asp | local=`03_Evidentiary_Exhibits/Immutable_Ledger/VE_08_IACHR_-_Annual_Reports_browser.html` | sha256=`f42c6c45b4b7b3f8...` | status=PENDING_LEGAL_REVIEW
+- VE-CIT-0008: US State Department - Country Reports on Human Rights Practices | https://www.state.gov/reports-bureau-of-democracy-human-rights-and-labor/country-reports-on-human-rights-practices/ | local=`03_Evidentiary_Exhibits/Immutable_Ledger/VE_09_US_State_Department_-_Country_Reports_on_Human_Rights_Practices.html` | sha256=`1247df151df829bd...` | status=PENDING_LEGAL_REVIEW
+- VE-CIT-0009: US State Department - Office of the Historian (FRUS) | https://history.state.gov/historicaldocuments | local=`03_Evidentiary_Exhibits/Immutable_Ledger/VE_10_US_State_Department_-_Office_of_the_Historian_FRUS.html` | sha256=`c948fdff783f2e5f...` | status=PENDING_LEGAL_REVIEW
+- VE-CIT-0010: NARA - Foreign Affairs Research | https://www.archives.gov/research/foreign-policy | local=`03_Evidentiary_Exhibits/Immutable_Ledger/VE_11_NARA_-_Foreign_Affairs_Research.html` | sha256=`c4cda55cb948dfd6...` | status=PENDING_LEGAL_REVIEW
+- VE-CIT-0011: CIA.gov 404 | https://www.cia.gov/reading-room/ | local=`03_Evidentiary_Exhibits/Immutable_Ledger/VE_12_CIA_FOIA_Electronic_Reading_Room_browser.html` | sha256=`237c2cfe65f25745...` | status=PENDING_LEGAL_REVIEW
+- VE-CIT-0012: Library of Congress - Research Guides / Country Studies | https://guides.loc.gov/ | local=`03_Evidentiary_Exhibits/Immutable_Ledger/VE_13_Library_of_Congress_-_Research_Guides_Country_Studies.html` | sha256=`066312d8420b11db...` | status=PENDING_LEGAL_REVIEW

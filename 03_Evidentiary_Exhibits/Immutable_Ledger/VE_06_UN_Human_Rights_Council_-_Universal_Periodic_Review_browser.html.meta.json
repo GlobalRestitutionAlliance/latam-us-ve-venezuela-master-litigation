@@ -1,0 +1,13 @@
+{
+  "url": "https://www.ohchr.org/en/hr-bodies/upr/upr-home",
+  "final_url": "\"https://www.ohchr.org/en/hr-bodies/upr/upr-home\"",
+  "status": 200,
+  "title": "\"Universal Periodic Review | OHCHR\"",
+  "bytes": 85510,
+  "sha256": "cfdbc1bead5f916a5d3b3fc04067cdbe0deda5eec81d5b4d3b3e2e4ce7dbcfab",
+  "captured_at": "2026-11-21T18:46:08.313068Z",
+  "custodian": "OpenCode/browser-fallback",
+  "country": "US_VE_VENEZUELA",
+  "iso": "VE",
+  "provenance": "browser-rendered outerHTML; WARC-like metadata sidecar; PUBLIC_CAPTURE_UNAUTHENTICATED; not certified original"
+}

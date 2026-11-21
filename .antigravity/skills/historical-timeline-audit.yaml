@@ -1,0 +1,7 @@
+skill:
+  id: historical-timeline-audit
+  jurisdiction: Venezuela
+  status: ACTIVE
+  guardrails:
+    - no_fabricated_citations
+    - primary_source_verification_required

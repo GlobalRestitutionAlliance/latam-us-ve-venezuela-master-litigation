@@ -1,96 +1,97 @@
-# United States – Venezuela Master Restitution Litigation Framework
+# US-VE VENEZUELA MASTER LITIGATION: INSTITUTIONAL RESTITUTION FRAMEWORK
+[![Integrity Verification](https://github.com/GlobalRestitutionAlliance/latam-ve-venezuela-master-litigation/actions/workflows/integrity-verification.yml/badge.svg)](https://github.com/GlobalRestitutionAlliance/latam-ve-venezuela-master-litigation/actions/workflows/integrity-verification.yml)
+[![Decentralized Mirror Sync](https://github.com/GlobalRestitutionAlliance/latam-ve-venezuela-master-litigation/actions/workflows/mirror-sync.yml/badge.svg)](https://github.com/GlobalRestitutionAlliance/latam-ve-venezuela-master-litigation/actions/workflows/mirror-sync.yml)
+[![Jurisdiction](https://img.shields.io/badge/Jurisdiction-Venezuela-blue.svg)](README.md)
+[![Restitution Pool](https://img.shields.io/badge/Restitution_Pool-%24250%2C000%2C000%2C000.00%20USD%20(%24250.00%20Billion)-brightgreen.svg)](00_Master_Knowledge_Base/)
+[![Status](https://img.shields.io/badge/Status-Active_Scaffold-orange.svg)](Master_Armory_Manifest.md)
 
-[![Jurisdiction: Republic of Venezuela](https://img.shields.io/badge/Jurisdiction-Republic%20of%20Venezuela-blue.svg)](file:///W:/Legal/LATIN_AMERICA/US_VE_VENEZUELA/00_Master_Knowledge_Base/Master_Venezuela_Restitution_Crosswalk_Dashboard.md)
-[![Judgment: ICJ 1986 Reports 14](https://img.shields.io/badge/ICJ%20Judgment-27%20June%201986-green.svg)](file:///W:/Legal/LATIN_AMERICA/US_VE_VENEZUELA/00_Master_Knowledge_Base/Master_Venezuela_Restitution_Crosswalk_Dashboard.md)
-[![Enforcement: UN Charter Art. 94(2)](https://img.shields.io/badge/Enforcement-UN%20Charter%20Art.%2094(2)-orange.svg)](file:///W:/Legal/LATIN_AMERICA/US_VE_VENEZUELA/00_Master_Knowledge_Base/Master_Venezuela_Restitution_Crosswalk_Dashboard.md)
-[![Total Certified Claims: 25 Instruments](https://img.shields.io/badge/Certified%20Claims-25%20Instruments-success.svg)](file:///W:/Legal/LATIN_AMERICA/US_VE_VENEZUELA/00_Master_Knowledge_Base/Master_Venezuela_Restitution_Crosswalk_Matrix.csv)
-[![Valuation Pool: $250.00 Billion](https://img.shields.io/badge/Restitution%20Pool-%24250.00%20Billion-brightgreen.svg)](file:///W:/Legal/LATIN_AMERICA/US_VE_VENEZUELA/00_Master_Knowledge_Base/Master_Venezuela_Restitution_Crosswalk_Dashboard.md)
-[![Status: Production Active](https://img.shields.io/badge/Status-Production%20Active-blue.svg)](file:///W:/Legal/LATIN_AMERICA/US_VE_VENEZUELA/README.md)
-
----
-
-## 1. Executive Mission & Jurisprudential Scope
-
-The **United States – Venezuela Master Restitution Litigation Framework** constitutes the institutional, unassailable legal infrastructure established by the **Global Restitution Alliance** to enforce final, binding international judgments and liquidate valid historical claims arising from 172 years of unlawful United States intervention in the Republic of Venezuela (1854–2026).
-
-Anchored by the landmark Judgment of the **International Court of Justice (ICJ)** of 27 June 1986 (*Military and Paramilitary Activities in and against Venezuela (Venezuela v. United States of America)*, Merits, Judgment, I.C.J. Reports 1986, p. 14), this repository operationalizes sovereign asset garnishment, commercial attachment, and exequatur enforcement across municipal and foreign jurisdictions.
-
-### Core Jurisprudential Pillars
-
-1. **Direct Enforcement of Final Judgment (*Res Judicata*):** Full recognition and domestic conversion of the 1986 ICJ Judgment on the Merits holding the United States in breach of customary international law obligations (non-use of force, non-intervention, sovereignty) and mandating full reparation under the *Chorzów Factory* standard (PCIJ Ser. A, No. 17).
-2. **Sovereign Immunity Forfeiture via Bad-Faith Veto Default:** Documented bad-faith default under UN Charter Article 94(2) through systemic Security Council vetoes, triggering statutory exceptions to sovereign immunity under the Foreign Sovereign Immunities Act (FSIA, 28 U.S.C. §§ 1605(a)(3), 1610(a)(6)) and the UN Convention on Jurisdictional Immunities of States (UNCSI).
-3. **172-Year Historical Continuum & Concession Nullity:** Substantive recovery spanning the 1854 Greytown bombardment, William Walker filibuster usurptions (1855–1857), 1909 Knox Note intervention, 1912–1933 Marine Occupations, and the Bryan-Chamorro Treaty (adjudicated void *ab initio* by the Central American Court of Justice in 1916 and 1917).
-4. **Inoculated Settlement Architecture:** All recovered proceeds and commercial asset liquidations are channeled into an independent Qualified Settlement Fund (QSF) Trust (26 U.S.C. § 468B) dedicated to humanitarian recovery, infrastructure revitalization, and victim restitution.
+A decentralized, cryptographically-verifiable legal and historical repository for the **United States–Venezuela** restitution campaign, maintained by the Global Restitution Alliance. This repository is structured to the Cuba campaign template standard and is being progressively bolstered with country-specific instruments, evidence, and enforcement workflows.
 
 ---
 
-## 2. Master Repository Architecture
+## 1. Project Overview & Legal Mission
 
+The **US-VE Venezuela Master Litigation** repository is an institutional legal research, coordination, and enforcement scaffold designed to:
+
+1. **Document Historical & Modern Liability:** Build an auditable evidentiary record of actionable harms, treaty breaches, fiduciary failures, and commercial expropriations relevant to US–Venezuela relations.
+2. **Coordinate Multi-Jurisdictional Enforcement:** Prepare pleadings, discovery, and enforcement materials for domestic, foreign, and international fora as claims mature.
+3. **Establish Accountability & Restitution Pathways:** Map claim vectors to legal instruments, evidentiary support, and restitution/disgorgement mechanisms.
+4. **Preserve Integrity & Chain of Custody:** Maintain cryptographic manifests, signed commits, and immutable audit logs for all evidentiary artifacts.
+
+**Key Issues (Profile Baseline):** Oil, sanctions
+
+---
+
+## 2. Current Operational Metrics
+
+| Operational Metric | Current Status | Verification Reference |
+|:---|:---:|:---|
+| **Actionable Instruments** | **25 (`VE-001` through `VE-025`)** | [`Master_Armory_Manifest.md`](Master_Armory_Manifest.md) |
+| **Target Restitution Pool** | **$250,000,000,000.00 USD ($250.00 Billion)** | [`00_Master_Knowledge_Base/`](00_Master_Knowledge_Base/) |
+| **Autonomous Legal Agents** | **2** | [`.antigravity/agents/`](.antigravity/agents/) |
+| **Certified Procedural Skills** | **3** | [`.antigravity/skills/`](.antigravity/skills/) |
+| **Integrity Hash Manifest** | **Tracked** | [`VERIFICATION_KEYS/sha256_manifest.txt`](VERIFICATION_KEYS/sha256_manifest.txt) |
+| **Audit / Expansion Log** | **Active** | [`Expansion_and_Audit_Log.md`](Expansion_and_Audit_Log.md) |
+
+> Metrics are synchronized from repository manifests where present. Values marked "Scaffold in development" indicate active bolstering in progress.
+
+---
+
+## 3. Repository Structure
+
+```text
+latam-ve-venezuela-master-litigation/
+├── .antigravity/                      # Agents, skills, tools, workflows, rules, knowledge
+├── .github/                           # CI integrity verification, templates, CODEOWNERS
+├── 00_Master_Knowledge_Base/          # Crosswalk matrices, dashboards, dossiers
+├── 01_Pleadings_and_Complaints/       # Complaints, petitions, filings
+├── 02_Discovery_and_Evidentiary/      # Discovery, subpoenas, evidentiary records
+├── 03_Evidentiary_Exhibits/           # Certified exhibits and source documents
+├── 03_Motions_and_Briefs/             # Motions, briefs, oppositions
+├── 04_International_Tribunals/        # ICJ/IACHR/UN/arbitral submissions
+├── 05_Strategic_Doctrines_and_Red_Team/ # Risk analysis, doctrine, counter-arguments
+├── 06_Trial_and_Appellate_Prep/       # Trial/appellate preparation materials
+├── 07_Enforcement_and_Restitution/    # Enforcement, QSF, garnishment, distribution
+├── 99_Archives_and_Manifests/         # Archives, manifests, audit artifacts
+├── VERIFICATION_KEYS/                 # SHA-256 manifests and verification keys
+├── Master_Armory_Manifest.md          # Instrument inventory
+├── Expansion_and_Audit_Log.md         # Campaign audit history
+├── Master_Chain_of_Custody_Log.md     # Custody/integrity log
+├── GOVERNANCE.md                      # Maintainer council and protocol
+└── MANIFESTO.md                       # Campaign principles and scope
 ```
-W:/Legal/LATIN_AMERICA/US_VE_VENEZUELA/
-├── 00_Master_Knowledge_Base/
-│   ├── Master_Venezuela_Restitution_Crosswalk_Matrix.csv  # 25 Instruments ($250.00B Pool)
-│   ├── Master_Venezuela_Restitution_Crosswalk_Dashboard.md # Markdown Evidentiary Dashboard
-│   ├── Master_Venezuela_Restitution_Crosswalk_Dashboard.docx # Executive Court-Ready Document
-│   └── executive_summary_dossier.md                       # Comprehensive Legal Inception Dossier
-├── 01_Pleadings_and_Complaints/
-│   ├── master_federal_court_complaint_venezuela_v1.md     # Inoculated Federal Civil Complaint
-│   └── master_federal_court_complaint_venezuela_v1.docx   # Executable Pleading
-├── 02_Discovery_and_Evidentiary/                          # Declassified Memos, CIA Records, Mining Evidence
-├── 03_Motions_and_Briefs/                                 # Post-Judgment Attachment & Garnishment Writs
-├── 04_International_Tribunals/                            # ICJ Memorials, UN Security Council Transcripts
-├── 05_Strategic_Doctrines_and_Red_Team/                   # Inoculated Defenses (Act of State, Political Question)
-├── 06_Trial_and_Appellate_Prep/                           # Evidentiary Tables & Expert Damages Testimony
-├── 07_Enforcement_and_Restitution/                        # QSF Trust Indenture & Asset Liquidation Protocols
-├── 99_Archives_and_Manifests/
-│   ├── Master_Armory_Manifest.md                          # Full Certified Instrumentation Registry
-│   └── Expansion_and_Audit_Log.md                         # Chronological Campaign Audit History
-├── VERIFICATION_KEYS/
-│   └── sha256_manifest.txt                                # SHA-256 Cryptographic Audit Ledger
-├── .antigravity/
-│   ├── project.yaml                                       # OMNI-COUNSEL-VE-001 Configuration
-│   ├── agents/                                            # Autonomous Legal Research & Audit Agents
-│   ├── skills/                                            # Certified Procedural Skills
-│   └── knowledge/                                         # Historical Timelines & Legal Precedents
-├── GOVERNANCE.md                                          # Maintainer Council & Operational Protocol
-├── MANIFESTO.md                                           # Restitution Manifesto & Historical Continuum
-├── Master_Armory_Manifest.md                              # Root Instrumentation Manifest
-├── Expansion_and_Audit_Log.md                             # Root Campaign Audit Log
-└── Master_Chain_of_Custody_Log.md                         # Cryptographic Custody Ledger
+
+---
+
+## 4. Core Jurisprudential & Enforcement Pillars
+
+1. **Evidentiary Rigor:** Every claim vector must map to primary sources, authenticated records, or adjudicated findings.
+2. **Procedural Integrity:** Filings and research outputs must follow applicable procedural rules and tribunal standards.
+3. **Sovereign & Commercial Accountability:** Apply applicable immunity exceptions, alter-ego/agency theories, and enforcement mechanisms where legally supported.
+4. **Restitution Architecture:** Recovered assets should be administered through transparent, court-supervised or legally compliant restitution mechanisms.
+5. **Cryptographic Verification:** All critical artifacts are tracked by SHA-256 manifests and auditable version control.
+
+---
+
+## 5. Verification & Integrity
+
+```bash
+# Verify SHA-256 integrity (when manifest is populated)
+sha256sum -c VERIFICATION_KEYS/sha256_manifest.txt --strict
+
+# Confirm repository status
+git status
 ```
 
 ---
 
-## 3. Campaign 01: Certified Restitution Metrics
+## 6. Governance & Participation
 
-- **Campaign Designation:** Campaign 01 — 172-Year Historical Continuum & 1986 ICJ Judgment Enforcement
-- **Actionable Instruments:** 25 Claims (`VE-001` through `VE-025`)
-- **Total Audited Restitution Pool:** **$250,000,000,000.00 USD ($250.00 Billion)**
-- **Deployed Autonomous Agents:**
-  - `agent-icj-judgment-and-article-94-marshal`
-  - `agent-venezuela-canal-and-intervention-historian`
-- **Certified Procedural Skills:**
-  - `icj-judgment-enforcement-and-article-94-sanctions`
-  - `historical-intervention-and-canal-concession-audit`
-  - `venezuelan-restitution-roadmap-and-qsf-trust-execution`
+- Governance: [`GOVERNANCE.md`](GOVERNANCE.md)
+- Contributions: [`CONTRIBUTING.md`](CONTRIBUTING.md)
+- Security: [`SECURITY.md`](SECURITY.md)
+- Manifesto: [`MANIFESTO.md`](MANIFESTO.md)
 
 ---
 
-## 4. Primary Evidentiary Artifacts
-
-- [Master Restitution Crosswalk Dashboard (Markdown)](file:///W:/Legal/LATIN_AMERICA/US_VE_VENEZUELA/00_Master_Knowledge_Base/Master_Venezuela_Restitution_Crosswalk_Dashboard.md)
-- [Master Restitution Crosswalk Matrix (CSV)](file:///W:/Legal/LATIN_AMERICA/US_VE_VENEZUELA/00_Master_Knowledge_Base/Master_Venezuela_Restitution_Crosswalk_Matrix.csv)
-- [Master Restitution Crosswalk Dashboard (Word DOCX)](file:///W:/Legal/LATIN_AMERICA/US_VE_VENEZUELA/00_Master_Knowledge_Base/Master_Venezuela_Restitution_Crosswalk_Dashboard.docx)
-- [Executive Legal Dossier](file:///W:/Legal/LATIN_AMERICA/US_VE_VENEZUELA/00_Master_Knowledge_Base/executive_summary_dossier.md)
-- [Master Federal Court Complaint](file:///W:/Legal/LATIN_AMERICA/US_VE_VENEZUELA/01_Pleadings_and_Complaints/master_federal_court_complaint_venezuela_v1.md)
-- [Cryptographic Verification Ledger](file:///W:/Legal/LATIN_AMERICA/US_VE_VENEZUELA/VERIFICATION_KEYS/sha256_manifest.txt)
-
----
-
-## 5. Security & Cryptographic Integrity
-
-Every legal instrument, dataset, and pleading in this repository is cryptographically signed and tracked using SHA-256 hashes in `VERIFICATION_KEYS/sha256_manifest.txt`. Any unauthorized modification or file divergence invalidates the chain of custody.
-
----
-
-*(Maintained under the authority of the Global Restitution Alliance Maintainer Council)*
+*Maintained under the authority of the Global Restitution Alliance Maintainer Council. This repository is a legal research and litigation scaffold; it does not constitute legal advice.*

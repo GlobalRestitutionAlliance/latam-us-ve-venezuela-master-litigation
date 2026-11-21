@@ -1,0 +1,8 @@
+agent:
+  id: agent-tribunals-envoy
+  jurisdiction: Venezuela
+  status: ACTIVE
+  role: International Tribunals, Exequatur, Transnational Enforcement
+  guardrails:
+    - no_fabricated_citations
+    - primary_source_verification_required
