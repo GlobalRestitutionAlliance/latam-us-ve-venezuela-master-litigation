@@ -29,6 +29,11 @@
 
 | 2026-11-21 | VE_12_CIA_FOIA_Electronic_Reading_Room_browser.html | https://www.cia.gov/reading-room/ | OpenCode/browser-fallback | 237c2cfe65f25745bc08b8ad0f0c6121a290e41610d32ab42d7591b72af290dc | PUBLIC_CAPTURE_UNAUTHENTICATED | status=404; bytes=100097; captured=2026-11-21T18:46:08.313068Z; browser=brave |
 
+| 2026-11-21 | Amerada_Hess_488_US_428.html | https://www.law.cornell.edu/supremecourt/text/488/428 | OpenCode/browser-shared | f9683823fa217204170b7d096433390da4eadc2d8a3fe09278b366115c45e32c | PUBLIC_CAPTURE_UNAUTHENTICATED | shared precedent/ICJ source; verify citation before reliance |
+| 2026-11-21 | ICJ_Case_70_Nicaragua_v_US.html | https://www.icj-cij.org/case/70 | OpenCode/browser-shared | 2fdf27e967bca677dd5c823eabe752d806a30d293f92c624792817100b2327c9 | PUBLIC_CAPTURE_UNAUTHENTICATED | shared precedent/ICJ source; verify citation before reliance |
+| 2026-11-21 | Kiobel_v_Royal_Dutch_569_US_108.html | https://www.law.cornell.edu/supremecourt/text/10-1491 | OpenCode/browser-shared | c9087d6c477adf9abe3b3e99f8d001ef3840dd30bc25c6f62ce8064ae6c16635 | PUBLIC_CAPTURE_UNAUTHENTICATED | shared precedent/ICJ source; verify citation before reliance |
+| 2026-11-21 | Sosa_v_Alvarez-Machain_542_US_692.html | https://www.law.cornell.edu/supremecourt/text/542/692 | OpenCode/browser-shared | 0c546229f58dba5ef1b8230542f88d537b156d78e60e9778f38247955d64c28e | PUBLIC_CAPTURE_UNAUTHENTICATED | shared precedent/ICJ source; verify citation before reliance |
+
 ## Intake Rules
 - Record source URL, access date, downloader, file hash, and storage path.
 - Store original files in `03_Evidentiary_Exhibits/Immutable_Ledger/` after verification.
