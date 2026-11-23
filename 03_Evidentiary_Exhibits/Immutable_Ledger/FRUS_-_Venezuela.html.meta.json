@@ -1,0 +1,17 @@
+{
+  "url": "https://history.state.gov/countries/venezuela",
+  "final_url": "https://history.state.gov/countries/venezuela",
+  "title": "FRUS - Venezuela",
+  "fetched_at": "2026-11-23T15:34:50.470912Z",
+  "http_status": 200,
+  "content_type": "text/html;charset=utf-8",
+  "bytes": 25125,
+  "sha256": "7df3c391674b1f146d4155265ab39dc28474ab4627cfa94853eaf71a54737fc9",
+  "provenance": "direct-http-fetch",
+  "custodian": "GRA-evidence-harvester",
+  "capture_access": "PUBLIC_CAPTURE_UNAUTHENTICATED",
+  "legal_review_status": "PENDING_LEGAL_REVIEW",
+  "note": "Direct harvest capture; pending legal review/authentication.",
+  "substantive": true,
+  "quality_flag": "SUBSTANTIVE_CAPTURE_PENDING_REVIEW"
+}
