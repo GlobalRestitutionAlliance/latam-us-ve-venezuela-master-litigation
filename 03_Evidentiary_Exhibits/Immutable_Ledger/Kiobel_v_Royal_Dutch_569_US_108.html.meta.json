@@ -6,5 +6,10 @@
   "bytes": 116607,
   "captured_at": "2026-11-21T20:33:44.093969Z",
   "custodian": "OpenCode/browser",
-  "provenance": "browser-rendered outerHTML; WARC-like metadata sidecar; PUBLIC_CAPTURE_UNAUTHENTICATED; verify citation before legal reliance"
+  "provenance": "browser-rendered outerHTML; WARC-like metadata sidecar; PUBLIC_CAPTURE_UNAUTHENTICATED; verify citation before legal reliance",
+  "fetched_at": "2026-11-21T20:33:44.093969Z",
+  "capture_access": "PUBLIC_CAPTURE_UNAUTHENTICATED",
+  "legal_review_status": "PENDING_LEGAL_REVIEW",
+  "substantive": true,
+  "quality_flag": "SUBSTANTIVE_CAPTURE_PENDING_REVIEW"
 }

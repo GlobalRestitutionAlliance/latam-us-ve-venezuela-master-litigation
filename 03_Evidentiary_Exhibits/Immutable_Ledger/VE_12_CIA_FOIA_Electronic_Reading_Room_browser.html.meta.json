@@ -9,5 +9,11 @@
   "custodian": "OpenCode/browser-fallback",
   "country": "US_VE_VENEZUELA",
   "iso": "VE",
-  "provenance": "browser-rendered outerHTML; WARC-like metadata sidecar; PUBLIC_CAPTURE_UNAUTHENTICATED; not certified original"
+  "provenance": "browser-rendered outerHTML; WARC-like metadata sidecar; PUBLIC_CAPTURE_UNAUTHENTICATED; not certified original",
+  "http_status": 404,
+  "fetched_at": "2026-11-21T18:46:08.313068Z",
+  "capture_access": "PUBLIC_CAPTURE_UNAUTHENTICATED",
+  "legal_review_status": "PENDING_LEGAL_REVIEW",
+  "substantive": true,
+  "quality_flag": "SUBSTANTIVE_CAPTURE_PENDING_REVIEW"
 }
